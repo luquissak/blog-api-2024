@@ -36,6 +36,8 @@ gcloud config list
 ```bash
 $env:GOOGLE_APPLICATION_CREDENTIALS="credentials\client_secret_129125337363-uci7et766rno47m5p4m2tfukr8b3d1dd.apps.googleusercontent.com.json"
 .venv\scripts\activate && .venv\Scripts\python.exe src\post_list.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\get_posts.py
+.venv\scripts\activate && .venv\Scripts\python.exe test\post_date_format.py
 #--noauth_local_webserver
 ```
 # References
