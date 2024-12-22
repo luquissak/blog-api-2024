@@ -38,6 +38,9 @@ $env:GOOGLE_APPLICATION_CREDENTIALS="credentials\client_secret_129125337363-uci7
 .venv\scripts\activate && .venv\Scripts\python.exe src\post_list.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\get_posts.py
 .venv\scripts\activate && .venv\Scripts\python.exe test\post_date_format.py
+.venv\scripts\activate && .venv\Scripts\python.exe test\docx_to_pdf.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\get_posts_files.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\convert_to_pdf.py
 #--noauth_local_webserver
 ```
 # References
