@@ -3,15 +3,16 @@
  * Add your service key to the current folder.
  * Uncomment and fill in these variables.
  */
-const projectId = 'my-project';
-const locationId = 'global';
-const agentId = 'my-agent';
-const languageCode = 'en'
-const TELEGRAM_TOKEN='1234567898:ABCdfghTtaD8dfghdfgh45sdf65467M';
-const SERVER_URL='https://example.com';
+
+const projectId = process.env.PROJECT_ID;
+const locationId = process.env.LOCATION;
+const agentId = process.env.AGENT_ID;
+const languageCode = process.env.LANG;
+const TELEGRAM_TOKEN=process.env.TELEGRAM_TOKEN;
+const SERVER_URL=process.env.SERVER_URL;
 
 const structProtoToJson =
-    require('../../botlib/proto_to_json.js').structProtoToJson;
+    require('./../botlib/proto_to_json.js').structProtoToJson;
 
 const express = require('express');
 const axios = require('axios');
@@ -103,8 +104,11 @@ async function detectIntentResponse(telegramRequest) {
 };
 
 const setup = async () => {
+  console.log(`${API_URL}/setWebhook`);
   const res = await axios.post(`${API_URL}/setWebhook`, {url: WEBHOOK});
   console.log(res.data);
+  //const fs = require('fs');
+  //fs.writeFileSync('node.log', res.data);
 };
 
 app.post(URI, async (req, res) => {
@@ -135,7 +139,8 @@ const listener = app.listen(process.env.PORT, async () => {
   console.log(
       'Your Dialogflow integration server is listening on port ' +
       listener.address().port);
-
+  console.log('Project ' + projectId);
+  console.log('Agent ' + agentId);
   await setup();
 });
 

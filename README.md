@@ -30,6 +30,7 @@ gcloud config set project llm-studies
 gcloud auth application-default set-quota-project llm-studies
 gcloud auth list
 gcloud config list
+gcloud config get-value project
 ```
 
 # Build and Test
@@ -43,9 +44,34 @@ $env:GOOGLE_APPLICATION_CREDENTIALS="credentials\client_secret_129125337363-uci7
 .venv\scripts\activate && .venv\Scripts\python.exe src\convert_to_pdf.py
 #--noauth_local_webserver
 ```
+
+# Test Dialogflow Integration
+```bash
+cd .\dialogflow-integrations\telegram
+npm install
+get-content .env | foreach {
+    $name, $value = $_.split('=')
+    set-content env:\$name $value
+}
+node server.js > node.log
+```
+
+# Build Dialogflow Integration
+
+```bash
+cd .\dialogflow-integrations\
+get-content .env | foreach {
+    $name, $value = $_.split('=')
+    set-content env:\$name $value
+}
+gcloud builds submit --tag gcr.io/llm-studies/dialogflow-telegram
+gcloud beta run deploy --image gcr.io/PROJECT_ID/dialogflow-telegram --service-account  --memory 1Gi --update-env-vars PROJECT_ID=, LOCATION=global, AGENT_ID=, LANG=pt,     TELEGRAM_TOKEN=, SERVER_URL=
+```
+
 # References
 - [Blogger](https://developers.google.com/blogger)
 - [Blogger APIs Client Library for Python](https://developers.google.com/blogger/docs/3.0/api-lib/python)
-- [Dialogflow Integration](https://github.com/GoogleCloudPlatform/dialogflow-integrations?tab=readme-ov-file#readme)
+- [Dialogflow Integration](https://github.com/GoogleCloudPlatform/dialogflow-integrations/tree/master)
 - [Telegram Integration for Dialogflow CX](https://github.com/GoogleCloudPlatform/dialogflow-integrations/tree/master/cx/telegram)
 - [BotFather](https://web.telegram.org/k/#@BotFather)
+- [Build history](https://console.cloud.google.com/cloud-build/builds?inv=1&invt=Abk6Jg&project=llm-studies&supportedpurview=project)

@@ -3,6 +3,10 @@ test/client_secrets.json
 credentials/client_secret_129125337363-uci7et766rno47m5p4m2tfukr8b3d1dd.apps.googleusercontent.com.json
 blogger.dat
 telegram/llm-studies-dc195b7b739b.json
+realcommands.md
+dialogflow-integrations/llm-studies-dc195b7b739b.json
+dialogflow-integrations/telegram/node_modules/
+dialogflow-integrations/telegram/package-lock.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
