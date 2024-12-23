@@ -46,3 +46,6 @@ $env:GOOGLE_APPLICATION_CREDENTIALS="credentials\client_secret_129125337363-uci7
 # References
 - [Blogger](https://developers.google.com/blogger)
 - [Blogger APIs Client Library for Python](https://developers.google.com/blogger/docs/3.0/api-lib/python)
+- [Dialogflow Integration](https://github.com/GoogleCloudPlatform/dialogflow-integrations?tab=readme-ov-file#readme)
+- [Telegram Integration for Dialogflow CX](https://github.com/GoogleCloudPlatform/dialogflow-integrations/tree/master/cx/telegram)
+- [BotFather](https://web.telegram.org/k/#@BotFather)
