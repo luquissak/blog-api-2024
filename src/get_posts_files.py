@@ -44,9 +44,13 @@ def main(argv):
                     try:
                         post_day = datetime.strptime(
                             post["published"], '%Y-%m-%dT%H:%M:%S-03:00').date().strftime('%d/%m/%Y')
+                        post_day2 = datetime.strptime(
+                            post["published"], '%Y-%m-%dT%H:%M:%S-03:00').date().strftime('%Y-%m-%d')
                     except:
                         post_day = datetime.strptime(
                             post["published"], '%Y-%m-%dT%H:%M:%S-02:00').date().strftime('%d/%m/%Y')
+                        post_day2 = datetime.strptime(
+                            post["published"], '%Y-%m-%dT%H:%M:%S-02:00').date().strftime('%Y-%m-%d')
                     post_title = post["title"]
                     print("%s (%s)..." % (post_title, post_day))
                     document = Document()
@@ -57,8 +61,8 @@ def main(argv):
                     if "=" in post_title:
                         post_title = "eu"
                     else:
-                        post_filename = post_title[:15].replace(" ", "_").replace("?", "_").replace("*", "_").replace('"', "_")
-                    document.save('docs/posts/'+str(datetime.today()).split()
+                        post_filename = post_title[0:80].replace(" ", "_").replace("?", "_").replace("*", "_").replace('"', "_")
+                    document.save('docs/posts/docx/'+str(post_day2).split()
                                   [0]+'_'+post_filename+'.docx')
             request = posts.list_next(request, posts_doc)
 

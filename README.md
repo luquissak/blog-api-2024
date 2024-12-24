@@ -28,9 +28,7 @@ gcloud components update
 gcloud auth application-default login
 gcloud config set project llm-studies
 gcloud auth application-default set-quota-project llm-studies
-gcloud auth list
 gcloud config list
-gcloud config get-value project
 ```
 
 # Build and Test
