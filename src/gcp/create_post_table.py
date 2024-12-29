@@ -11,20 +11,17 @@ schema = [
     bigquery.SchemaField("post_title", "STRING", mode="REQUIRED"),
     bigquery.SchemaField("post_content_html", "STRING", mode="REQUIRED"),
     bigquery.SchemaField("post_content", "STRING", mode="REQUIRED"),
-    bigquery.SchemaField("post_replies", "STRING", mode="REQUIRED"),
+    #bigquery.SchemaField("post_replies", "STRING", mode="REPEATED"),
     bigquery.SchemaField(
         "post_labels",
-        "RECORD",
-        mode="REPEATED",
-        fields=[
-            bigquery.SchemaField("label", "STRING", mode="NULLABLE"),
-        ],
-    ),
+        "STRING",
+        mode="REPEATED"),
 
 ]
 
 table = bigquery.Table(table_id, schema=schema)
 table = client.create_table(table)
 print(
-    "Created table {}.{}.{}".format(table.project, table.dataset_id, table.table_id)
+    "Created table {}.{}.{}".format(
+        table.project, table.dataset_id, table.table_id)
 )

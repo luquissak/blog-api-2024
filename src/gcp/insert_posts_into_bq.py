@@ -15,10 +15,10 @@ log_date = datetime.now()
 def get_post_date(post):
     try:
         return datetime.strptime(
-            post["published"], '%Y-%m-%dT%H:%M:%S-03:00').date().strftime('%d/%m/%Y')
+            post["published"], '%Y-%m-%dT%H:%M:%S-03:00').date().strftime('%Y-%m-%d')
     except:
         return datetime.strptime(
-            post["published"], '%Y-%m-%dT%H:%M:%S-02:00').date().strftime('%d/%m/%Y')
+            post["published"], '%Y-%m-%dT%H:%M:%S-02:00').date().strftime('%Y-%m-%d')
 
 
 def insert_post(blogId, post):
@@ -84,7 +84,7 @@ def main(argv):
             if "items" in posts_doc and not (posts_doc["items"] is None):
                 for post in posts_doc["items"]:
                     insert_post(blogId, post)
-                    exit()
+                    #exit()
             request = posts.list_next(request, posts_doc)
 
 
