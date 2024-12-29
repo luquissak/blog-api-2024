@@ -40,7 +40,21 @@ $env:GOOGLE_APPLICATION_CREDENTIALS="credentials\client_secret_129125337363-uci7
 .venv\scripts\activate && .venv\Scripts\python.exe test\docx_to_pdf.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\get_posts_files.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\convert_to_pdf.py
+.venv\scripts\activate && .venv\Scripts\python.exe test\post_fields.py
 #--noauth_local_webserver
+```
+
+# BQ
+
+```bash
+.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_post_table.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\insert_posts_into_bq.py
+```
+
+# Processing
+```bash
+.venv\scripts\activate
+jupyter notebook src\notebook\document_processing.ipynb
 ```
 
 # Test Dialogflow Integration
