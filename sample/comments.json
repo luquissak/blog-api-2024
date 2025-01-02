@@ -1,0 +1,94 @@
+{
+  "kind": "blogger#commentList",
+  "items": [
+    {
+      "kind": "blogger#comment",
+      "id": "4907980383711985761",
+      "post": {
+        "id": "4141860721292182621"
+      },
+      "blog": {
+        "id": "7718081438042230655"
+      },
+      "published": "2024-01-19T17:31:02-03:00",
+      "updated": "2024-01-19T17:31:02-03:00",
+      "selfLink": "https://www.googleapis.com/blogger/v3/blogs/7718081438042230655/posts/4141860721292182621/comments/4907980383711985761",
+      "content": "Para Rorty baseamos nossas crenças mais em justificação do que na verdade, parece ser mais importante convencer a audiência do se ater à verdade. Os projetos acabam vindo antes dos princípios. Filosofia Pop #035",
+      "author": {
+        "id": "00466078517352979032",
+        "displayName": "Luís Fernando de Siqueira Quissak Pereira",
+        "url": "https://www.blogger.com/profile/00466078517352979032",
+        "image": {
+          "url": "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhycRCsSOlR9_h_7qaR8cW_VGmSdXEtQB19t82u5n6hcW_aoS3sZh3u465kekEwRW4Zbg2NOm7uhTbjhquueheiQSXO0CX5NBP3CwdbS7OO1FaNAu3TTxBxZRsMTsB2Yw/s45-c/capeta.png"
+        }
+      }
+    },
+    {
+      "kind": "blogger#comment",
+      "id": "519037300613917102",
+      "post": {
+        "id": "4141860721292182621"
+      },
+      "blog": {
+        "id": "7718081438042230655"
+      },
+      "published": "2024-01-19T17:31:54-03:00",
+      "updated": "2024-01-19T17:31:54-03:00",
+      "selfLink": "https://www.googleapis.com/blogger/v3/blogs/7718081438042230655/posts/4141860721292182621/comments/519037300613917102",
+      "content": "Mudar uma crença depende de resultados práticos muito mais que argumentos verdadeiros ",
+      "author": {
+        "id": "00466078517352979032",
+        "displayName": "Luís Fernando de Siqueira Quissak Pereira",
+        "url": "https://www.blogger.com/profile/00466078517352979032",
+        "image": {
+          "url": "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhycRCsSOlR9_h_7qaR8cW_VGmSdXEtQB19t82u5n6hcW_aoS3sZh3u465kekEwRW4Zbg2NOm7uhTbjhquueheiQSXO0CX5NBP3CwdbS7OO1FaNAu3TTxBxZRsMTsB2Yw/s45-c/capeta.png"
+        }
+      }
+    },
+    {
+      "kind": "blogger#comment",
+      "id": "22557573754963767",
+      "post": {
+        "id": "4141860721292182621"
+      },
+      "blog": {
+        "id": "7718081438042230655"
+      },
+      "published": "2024-01-19T17:34:50-03:00",
+      "updated": "2024-01-19T17:34:50-03:00",
+      "selfLink": "https://www.googleapis.com/blogger/v3/blogs/7718081438042230655/posts/4141860721292182621/comments/22557573754963767",
+      "content": "Ao contrário, achamos que o nosso projeto é o verdadeiro e mesmo que não esteja funcionando não temos habilidade para mudar ",
+      "author": {
+        "id": "00466078517352979032",
+        "displayName": "Luís Fernando de Siqueira Quissak Pereira",
+        "url": "https://www.blogger.com/profile/00466078517352979032",
+        "image": {
+          "url": "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhycRCsSOlR9_h_7qaR8cW_VGmSdXEtQB19t82u5n6hcW_aoS3sZh3u465kekEwRW4Zbg2NOm7uhTbjhquueheiQSXO0CX5NBP3CwdbS7OO1FaNAu3TTxBxZRsMTsB2Yw/s45-c/capeta.png"
+        }
+      }
+    },
+    {
+      "kind": "blogger#comment",
+      "id": "1353363099899333616",
+      "post": {
+        "id": "4141860721292182621"
+      },
+      "blog": {
+        "id": "7718081438042230655"
+      },
+      "published": "2024-01-19T17:38:11-03:00",
+      "updated": "2024-01-19T17:38:11-03:00",
+      "selfLink": "https://www.googleapis.com/blogger/v3/blogs/7718081438042230655/posts/4141860721292182621/comments/1353363099899333616",
+      "content": "A filosofia muitas vezes age dessa forma, pregando uma verdade universal distante da aplicabilidade ",
+      "author": {
+        "id": "00466078517352979032",
+        "displayName": "Luís Fernando de Siqueira Quissak Pereira",
+        "url": "https://www.blogger.com/profile/00466078517352979032",
+        "image": {
+          "url": "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhycRCsSOlR9_h_7qaR8cW_VGmSdXEtQB19t82u5n6hcW_aoS3sZh3u465kekEwRW4Zbg2NOm7uhTbjhquueheiQSXO0CX5NBP3CwdbS7OO1FaNAu3TTxBxZRsMTsB2Yw/s45-c/capeta.png"
+        }
+      }
+    }
+  ],
+  "etag": "\"MjAyNC0wMS0xOVQyMDozODoxMS4zNjNa\""
+}

@@ -27,8 +27,8 @@ def main(argv):
 
     request = posts.get(blogId=BLOG_ID, postId="8308915921482722238")
     requested_post = request.execute()
-    print(requested_post)
-    exit()
+#    print(requested_post)
+#    exit()
 
 
     users = service.users()
@@ -50,11 +50,16 @@ def main(argv):
             posts_doc = request.execute()
             if "items" in posts_doc and not (posts_doc["items"] is None):
                 for post in posts_doc["items"]:
-                    print("%s ..." % (post["title"]))
+#                    print("%s ..." % (post["title"]))
 
 #                    %Y-%m-%dT17:25:00-03:00
-                    post_day = datetime.strptime(post["published"], '%Y-%m-%dT%H:%M:%S-03:00').date()
-                    print(post_day.strftime('%d/%m/%Y'))
+#                    post_day = datetime.strptime(post["published"], '%Y-%m-%dT%H:%M:%S-03:00').date()
+#                    print(post_day.strftime('%d/%m/%Y'))
+                    try:
+                        print(post["replies"])
+                    except:
+                        print("nada")
+                        continue
                     exit()
             request = posts.list_next(request, posts_doc)
 
