@@ -32,6 +32,7 @@ gcloud config list
 ```
 
 # Build and Test
+
 ```bash
 $env:GOOGLE_APPLICATION_CREDENTIALS="credentials\client_secret_129125337363-uci7et766rno47m5p4m2tfukr8b3d1dd.apps.googleusercontent.com.json"
 .venv\scripts\activate && .venv\Scripts\python.exe src\post_list.py
@@ -41,6 +42,7 @@ $env:GOOGLE_APPLICATION_CREDENTIALS="credentials\client_secret_129125337363-uci7
 .venv\scripts\activate && .venv\Scripts\python.exe src\get_posts_files.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\convert_to_pdf.py
 .venv\scripts\activate && .venv\Scripts\python.exe test\post_fields.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\get_comments.py
 #--noauth_local_webserver
 ```
 
@@ -52,12 +54,17 @@ $env:GOOGLE_APPLICATION_CREDENTIALS="credentials\client_secret_129125337363-uci7
 ```
 
 # Processing
+
 ```bash
 .venv\scripts\activate
 jupyter notebook src\notebook\document_processing.ipynb
+.venv\scripts\activate && .venv\Scripts\python.exe src\post_classification.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\post_summ.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\post_authors.py
 ```
 
 # Test Dialogflow Integration
+
 ```bash
 cd .\dialogflow-integrations\telegram
 npm install
@@ -80,7 +87,12 @@ gcloud builds submit --tag gcr.io/llm-studies/dialogflow-telegram
 gcloud beta run deploy --image gcr.io/PROJECT_ID/dialogflow-telegram --service-account  --memory 1Gi --update-env-vars PROJECT_ID=, LOCATION=global, AGENT_ID=, LANG=pt,     TELEGRAM_TOKEN=, SERVER_URL=
 ```
 
+# Looker
+
+-[Report](https://lookerstudio.google.com/s/mxKD2HnuGI8)
+
 # References
+
 - [Blogger](https://developers.google.com/blogger)
 - [Blogger APIs Client Library for Python](https://developers.google.com/blogger/docs/3.0/api-lib/python)
 - [Dialogflow Integration](https://github.com/GoogleCloudPlatform/dialogflow-integrations/tree/master)
