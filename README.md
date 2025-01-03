@@ -46,11 +46,16 @@ $env:GOOGLE_APPLICATION_CREDENTIALS="credentials\client_secret_129125337363-uci7
 #--noauth_local_webserver
 ```
 
-# BQ
+# GCP
 
 ```bash
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_post_table.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\insert_posts_into_bq.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\upload_class.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\load_class.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\upload_authors.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\insert_authors_into_bq.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_auth_table.py
 ```
 
 # Processing

@@ -108,17 +108,37 @@ def main(argv):
             blob_uri = 'gs://' + \
                 blob_post.id[:-(len(str(blob_post.generation)) + 1)]
             if ".pdf" not in blob_uri: continue
-            response_text = process_document(
-                blogger_extraction_prompt,
-                blob_uri,
-                generation_config=generation_config,
-                print_prompt=False,
-            )
-            json_object = json.loads(response_text)
-            new_line = str(json_object)+"|"+blob_uri+"\n"
-            print(new_line)
-            the_file.write(new_line)
-            time.sleep(10)
+            try:
+                response_text = process_document(
+                    blogger_extraction_prompt,
+                    blob_uri,
+                    generation_config=generation_config,
+                    print_prompt=False,
+                )
+                try:
+                    json_object = json.loads(response_text)
+                except:
+                    print(blob_uri)    
+                    continue
+                new_line = str(json_object)+"|"+blob_uri+"\n"
+                print(new_line)
+                the_file.write(new_line)
+                time.sleep(10)
+            except:
+                response_text = process_document(
+                    blogger_extraction_prompt,
+                    blob_uri,
+                    generation_config=generation_config,
+                    print_prompt=False,
+                )
+                json_object = json.loads(response_text)
+                new_line = str(json_object)+"|"+blob_uri+"\n"
+                try:
+                    print(new_line)
+                    the_file.write(new_line)
+                except:
+                    continue
+                time.sleep(10)
 
 
 if __name__ == "__main__":
