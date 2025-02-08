@@ -6,7 +6,6 @@ schema = [
     bigquery.SchemaField("post_id", "INT64", mode="REQUIRED"),
     bigquery.SchemaField("log_date", "DATETIME", mode="REQUIRED"),
     bigquery.SchemaField("post_date", "DATE", mode="REQUIRED"),
-    bigquery.SchemaField("post_wday", "STRING", mode="NULLABLE"),
     bigquery.SchemaField("post_url", "STRING", mode="REQUIRED"),
     bigquery.SchemaField("post_title", "STRING", mode="REQUIRED"),
     bigquery.SchemaField("post_content_html", "STRING", mode="REQUIRED"),
@@ -16,13 +15,17 @@ schema = [
         "post_labels",
         "STRING",
         mode="REPEATED"),
-    bigquery.SchemaField(
-        "authors",
-        "STRING",
-        mode="REPEATED"),
-    bigquery.SchemaField("summ", "STRING", mode="REQUIRED"),
-    bigquery.SchemaField("class", "STRING", mode="REQUIRED"),
 ]
+
+try:
+    table = bigquery.Table(table_id, schema=schema)
+    table = client.delete_table(table)
+    print(
+        "Deleted table {}.{}.{}".format(
+            table.project, table.dataset_id, table.table_id)
+    )
+except:
+    pass
 
 table = bigquery.Table(table_id, schema=schema)
 table = client.create_table(table)
