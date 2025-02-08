@@ -11,12 +11,17 @@ schema = [
     bigquery.SchemaField("post_title", "STRING", mode="REQUIRED"),
     bigquery.SchemaField("post_content_html", "STRING", mode="REQUIRED"),
     bigquery.SchemaField("post_content", "STRING", mode="REQUIRED"),
-    #bigquery.SchemaField("post_replies", "STRING", mode="REPEATED"),
+    bigquery.SchemaField("post_replies", "INT64", mode="REQUIRED"),
     bigquery.SchemaField(
         "post_labels",
         "STRING",
         mode="REPEATED"),
-
+    bigquery.SchemaField(
+        "authors",
+        "STRING",
+        mode="REPEATED"),
+    bigquery.SchemaField("summ", "STRING", mode="REQUIRED"),
+    bigquery.SchemaField("class", "STRING", mode="REQUIRED"),
 ]
 
 table = bigquery.Table(table_id, schema=schema)

@@ -1,15 +1,40 @@
+import os
+from dotenv import load_dotenv
 import sys
 from datetime import datetime
 from google.cloud import bigquery
 from googleapiclient import sample_tools
 import html2text
+import requests
+import json
 
 
+load_dotenv()
+BLOG_ID = os.getenv('BLOG_ID')
+KEY = os.getenv('KEY')
+print("BLOG_ID", BLOG_ID)
+REPLY_URL = "https://www.googleapis.com/blogger/v3/blogs/" + \
+    BLOG_ID+"/posts/POST_ID/comments?key="+KEY
 date_format = '%d/%m/%Y'
 
 table_id = "llm-studies.blog.posts_dez_2024"
 client = bigquery.Client()
 log_date = datetime.now()
+
+
+def get_comments(postId):
+    response = requests.request("GET", REPLY_URL.replace(
+        "POST_ID", postId), headers={}, data={})
+    json_obj = json.loads(response.text)
+    comments = "Comentários: "
+    i = 0
+    try:
+        for comment in json_obj['items']:
+            comments = comments + comment['content'] + "\n"
+            i = i+1
+    except:
+        return "", 0    
+    return comments, i
 
 
 def get_post_date(post):
@@ -32,17 +57,16 @@ def insert_post(blogId, post):
     post_title = post["title"]
     post_content_html = html2text.html2text(post["content"])
     post_content = post["content"]
-#    post_replies = post["replies"]
+    post_replies, post_replies_total = get_comments(post_id)
+    post_content = post_content + " " + post_replies
     post_labels = post["labels"]
 
     print("%s (%s)..." % (post_title, post_date))
-
+    print(post_labels)
     rows_to_insert = [
         {"blog_id": blog_id, "post_id": post_id, "log_date": str(log_date), "post_date": str(post_date), "post_wday": post_wday, "post_url": post_url,
-            "post_title": post_title, "post_content_html": post_content_html, "post_content": post_content
-            , 
-            #"post_replies": post_replies, 
-            "post_labels": post_labels}
+            "post_title": post_title, "post_content_html": post_content_html, "post_content": post_content, "post_replies": int(post_replies_total),
+            "post_labels": post_labels, "class": "", "summ": ""}
     ]
 
     # Make an API request.
@@ -84,7 +108,7 @@ def main(argv):
             if "items" in posts_doc and not (posts_doc["items"] is None):
                 for post in posts_doc["items"]:
                     insert_post(blogId, post)
-                    #exit()
+                    exit()
             request = posts.list_next(request, posts_doc)
 
 
