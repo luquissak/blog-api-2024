@@ -1,133 +1,77 @@
 import sys
 from dotenv import load_dotenv
-from vertexai.generative_models import (
-    GenerationConfig,
-    GenerativeModel,
-    HarmBlockThreshold,
-    HarmCategory,
-    Part,
-)
-from google.cloud import storage
+from google.cloud import bigquery
 import time
+import prompts
+import model_config
+from datetime import datetime
 
-PDF_MIME_TYPE = "application/pdf"
-
-classification_prompt = """You are a document classification assistant. Given a document, your task is to find which category the document belongs to from the list of document categories provided below.
-
- Antropologia
- Ciência
- Crônica
- Educação
- Epistemologia
- Ética
- Liberdade
- Linguagem
- Marxismo
- Mente
- Ontologia Social
- Poesia
- Política
- Psicanálise
- Tecnologia
-
-Which category does the above document belong to? Answer with one of the predefined document categories only.
-"""
-
-# Load the Gemini 1.5 Flash model
-model = GenerativeModel(
-    "gemini-1.5-flash",
-    safety_settings={
-        HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_ONLY_HIGH
-    },
-)
-# This Generation Config sets the model to respond in JSON format.
-generation_config = GenerationConfig(
-    temperature=0.0, response_mime_type="application/json"
-)
+client = bigquery.Client()
+MODEL_NAME = "gemini-1.5-flash"
+TEMP = 0
 
 
-def print_multimodal_prompt(contents: list) -> None:
+def create_baseline(task, prompt):
+    client = bigquery.Client()
+    query = f"""
+    SELECT max(baseline_id) as baseline_id
+    FROM `llm-studies.blog.model_baseline`
     """
-    Given contents that would be sent to Gemini,
-    output the full multimodal prompt for ease of readability.
+    rows = client.query_and_wait(query)
+    try:
+        for row in rows:
+            baselineId = row["baseline_id"] + 1
+    except:
+        baselineId = 1
+        print(baselineId, task, prompt, MODEL_NAME, TEMP)
+    query = f"""
+    INSERT INTO `llm-studies.blog.model_baseline` (baseline_id, task, log_date, prompt, model, temperature)
+    VALUES ({baselineId}, "{task}", CURRENT_DATETIME(), "{prompt}", "{MODEL_NAME}", {TEMP})
     """
-    for content in contents:
-        if not isinstance(content, Part):
-            print(content)
-        elif content.inline_data:
-            display_pdf(content.inline_data.data)
-        elif content.file_data:
-            gcs_url = (
-                "https://storage.googleapis.com/"
-                + content.file_data.file_uri.replace("gs://", "").replace(" ", "%20")
-            )
-            print(f"PDF URL: {gcs_url}")
+    client.query_and_wait(query)
+    return baselineId
 
 
-# Send Google Cloud Storage Document to Vertex AI
-def process_document(
-    prompt: str,
-    file_uri: str,
-    mime_type: str = PDF_MIME_TYPE,
-    generation_config: GenerationConfig | None = None,
-    print_prompt: bool = False,
-    print_raw_response: bool = False,
-) -> str:
-    # Load file directly from Google Cloud Storage
-    file_part = Part.from_uri(
-        uri=file_uri,
-        mime_type=mime_type,
-    )
+def insert_classification(blogId, postId, baselineId, classification, model_version, totalTokenCount, hateSpeech):
 
-    # Load contents
-    contents = [file_part, prompt]
-
-    # Send to Gemini
-    response = model.generate_content(
-        contents, generation_config=generation_config)
-
-    if print_prompt:
-        print("-------Prompt--------")
-        print_multimodal_prompt(contents)
-
-    if print_raw_response:
-        print("\n-------Raw Response--------")
-        print(response)
-
-    return response.text
+    rows_to_insert = [
+        {"hate_speech": hateSpeech, "total_token_count": totalTokenCount, "model_version": model_version,
+         "classification": classification,
+         "log_date": str( datetime.utcnow() ),
+         "baseline_id": baselineId,
+         "post_id": postId,
+         "blog_id": blogId}
+    ]
+    errors = client.insert_rows_json(
+        "llm-studies.blog.posts_classification", rows_to_insert)
+    if errors != []:
+        print("Encountered errors while inserting rows: {}".format(errors))
+        exit()
+    else:
+        return 1
 
 
 def main(argv):
     print("starting...")
-    storage_client = storage.Client()
-    blob_list = storage_client.list_blobs(
-        "blog-files-2024", prefix="all/pdf2/")
-    with open('files/posts_class.csv', 'a') as the_file:
-        the_file.write("class|url\n")
-        for blob_post in blob_list:
-            blob_uri = 'gs://' + \
-                blob_post.id[:-(len(str(blob_post.generation)) + 1)]
-            if ".pdf" not in blob_uri: continue
-            try:
-                response_text = process_document(
-                    classification_prompt,
-                    blob_uri,
-                    print_prompt=False,
-                )
-                new_line = response_text.rstrip()+"|"+blob_uri+"\n"
-                print(new_line)
-                the_file.write(new_line)
-                time.sleep(10)
-            except:
-                response_text = process_document(
-                    classification_prompt,
-                    blob_uri,
-                    print_prompt=False,
-                )
-                new_line = response_text.rstrip()+"|"+blob_uri+"\n"
-                print(new_line)
-                the_file.write(new_line)
-                time.sleep(10)
+    # create_baseline(        "classification", prompts.classification_prompt)
+    baselineId = 3
+
+    query = """
+    SELECT blog_id, post_id, post_title, post_content
+    FROM `llm-studies.blog.posts_dez_2024`
+    where post_replies > 19
+    """
+    rows = client.query_and_wait(query)
+    for row in rows:
+        print("post={}".format(row["post_title"]))
+        model_config.ModelResp = model_config.call_model(MODEL_NAME, TEMP,
+                                            prompts.classification_prompt,
+                                            row["post_content"],
+                                            print_raw_response=False,
+                                            )
+        insert_classification(row["blog_id"], row["post_id"], baselineId, model_config.ModelResp.text, model_config.ModelResp.modelVersion, 1, model_config.ModelResp.usageMetadata)
+        exit(0)
+        time.sleep(10)
 
 
 if __name__ == "__main__":

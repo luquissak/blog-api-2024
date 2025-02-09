@@ -1,0 +1,30 @@
+from google.cloud import bigquery
+client = bigquery.Client()
+table_id = "llm-studies.blog.posts_classification"
+schema = [
+    bigquery.SchemaField("blog_id", "INT64", mode="REQUIRED"),
+    bigquery.SchemaField("post_id", "INT64", mode="REQUIRED"),
+    bigquery.SchemaField("baseline_id", "INT64", mode="REQUIRED"),
+    bigquery.SchemaField("log_date", "DATETIME", mode="REQUIRED"),
+    bigquery.SchemaField("classification", "STRING", mode="REQUIRED"),
+    bigquery.SchemaField("model_version", "STRING", mode="REQUIRED"),
+    bigquery.SchemaField("total_token_count", "INT64", mode="REQUIRED"),
+    bigquery.SchemaField("hate_speech", "INT64", mode="REQUIRED"),
+]
+
+try:
+    table = bigquery.Table(table_id, schema=schema)
+    table = client.delete_table(table)
+    print(
+        "Deleted table {}.{}.{}".format(
+            table.project, table.dataset_id, table.table_id)
+    )
+except:
+    pass
+
+table = bigquery.Table(table_id, schema=schema)
+table = client.create_table(table)
+print(
+    "Created table {}.{}.{}".format(
+        table.project, table.dataset_id, table.table_id)
+)
