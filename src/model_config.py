@@ -29,18 +29,20 @@ def call_model(
     if print_raw_response:
         print("\n-------Raw Response--------")
         print(response)
-
     
     dict_response = response.to_dict()
     ModelResp.modelVersion = dict_response["model_version"]    
-    ModelResp.usageMetadata = dict_response["usage_metadata"]
+#    ModelResp.safetyRatings.add(dict_response["candidates"][0]["safety_ratings"][0]["severity_score"])
+#    ModelResp.safetyRatings.append(dict_response["candidates"][0]["safety_ratings"][1]["severity_score"])
+#    ModelResp.safetyRatings.append(dict_response["candidates"][0]["safety_ratings"][2]["severity_score"])
+#    ModelResp.safetyRatings.append(dict_response["candidates"][0]["safety_ratings"][3]["severity_score"])
+    ModelResp.totalTokenCount = dict_response["usage_metadata"]["total_token_count"]
     ModelResp.text = dict_response["candidates"][0]["content"]["parts"][0]["text"]
-
-
     return ModelResp
 
 class ModelResp:
 
     modelVersion: str
-    usageMetadata: str
+    safetyRatings: list
+    totalTokenCount: str
     text: str

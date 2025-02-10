@@ -17,4 +17,4 @@ classification_prompt = "" \
     " Psicanálise " \
     " Tecnologia " \
     " " \
-    "Which category does the above document belong to? Answer with one of the predefined document categories or try to find a new one. "
+    "Which category does the above document belong to? Answer with one of the predefined document categories ONLY. "

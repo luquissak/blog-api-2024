@@ -4,7 +4,7 @@ from google.cloud import bigquery
 import time
 import prompts
 import model_config
-from datetime import datetime
+import datetime
 
 client = bigquery.Client()
 MODEL_NAME = "gemini-1.5-flash"
@@ -37,7 +37,7 @@ def insert_classification(blogId, postId, baselineId, classification, model_vers
     rows_to_insert = [
         {"hate_speech": hateSpeech, "total_token_count": totalTokenCount, "model_version": model_version,
          "classification": classification,
-         "log_date": str( datetime.utcnow() ),
+         "log_date": str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')),
          "baseline_id": baselineId,
          "post_id": postId,
          "blog_id": blogId}
@@ -69,8 +69,7 @@ def main(argv):
                                             row["post_content"],
                                             print_raw_response=False,
                                             )
-        insert_classification(row["blog_id"], row["post_id"], baselineId, model_config.ModelResp.text, model_config.ModelResp.modelVersion, 1, model_config.ModelResp.usageMetadata)
-        exit(0)
+        insert_classification(row["blog_id"], row["post_id"], baselineId, model_config.ModelResp.text, model_config.ModelResp.modelVersion, model_config.ModelResp.totalTokenCount, [])
         time.sleep(10)
 
 

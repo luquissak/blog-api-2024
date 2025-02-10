@@ -9,7 +9,10 @@ schema = [
     bigquery.SchemaField("classification", "STRING", mode="REQUIRED"),
     bigquery.SchemaField("model_version", "STRING", mode="REQUIRED"),
     bigquery.SchemaField("total_token_count", "INT64", mode="REQUIRED"),
-    bigquery.SchemaField("hate_speech", "INT64", mode="REQUIRED"),
+    bigquery.SchemaField(
+        "hate_speech",
+        "STRING",
+        mode="REPEATED"),
 ]
 
 try:

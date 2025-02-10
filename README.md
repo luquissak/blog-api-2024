@@ -48,14 +48,31 @@ $env:GOOGLE_APPLICATION_CREDENTIALS="credentials\client_secret_129125337363-uci7
 
 # GCP
 
+Insert posts into Big Query
+
 ```bash
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_post_table.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\insert_posts_into_bq.py
+```
+
+Post classification
+
+```bash
+.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_model_baseline.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_classification_table.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\post_classification.py
+```
+
+```bash
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\upload_class.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\load_class.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\upload_authors.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\insert_authors_into_bq.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_auth_table.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\upload_summ.py
+#.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\load_summ.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_summ_table.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\insert_summ_into_bq.py
 ```
 
 # Processing
@@ -66,6 +83,7 @@ jupyter notebook src\notebook\document_processing.ipynb
 .venv\scripts\activate && .venv\Scripts\python.exe src\post_classification.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\post_summ.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\post_authors.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\post_arguments.py
 ```
 
 # Test Dialogflow Integration
