@@ -23,7 +23,6 @@ def create_baseline(task, prompt):
             baselineId = row["baseline_id"] + 1
     except:
         baselineId = 1
-        print(baselineId, task, prompt, MODEL_NAME, TEMP)
     query = f"""
     INSERT INTO `llm-studies.blog.model_baseline` (baseline_id, task, log_date, prompt, model, temperature)
     VALUES ({baselineId}, "{task}", CURRENT_DATETIME(), "{prompt}", "{MODEL_NAME}", {TEMP})
@@ -32,10 +31,10 @@ def create_baseline(task, prompt):
     return baselineId
 
 
-def insert_classification(blogId, postId, baselineId, classification, model_version, totalTokenCount, hateSpeech):
+def insert_classification(blogId, postId, baselineId, classification, model_version, totalTokenCount, safetyRatings):
 
     rows_to_insert = [
-        {"hate_speech": hateSpeech, "total_token_count": totalTokenCount, "model_version": model_version,
+        {"safety_ratings": safetyRatings, "total_token_count": totalTokenCount, "model_version": model_version,
          "classification": classification,
          "log_date": str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')),
          "baseline_id": baselineId,
@@ -53,24 +52,24 @@ def insert_classification(blogId, postId, baselineId, classification, model_vers
 
 def main(argv):
     print("starting...")
-    # create_baseline(        "classification", prompts.classification_prompt)
-    baselineId = 3
-
+    baselineId = create_baseline(
+        "classification", prompts.classification_prompt)
     query = """
     SELECT blog_id, post_id, post_title, post_content
     FROM `llm-studies.blog.posts_dez_2024`
-    where post_replies > 19
+    WHERE post_id not in (SELECT post_id FROM `llm-studies.blog.posts_classification`)
     """
     rows = client.query_and_wait(query)
     for row in rows:
         print("post={}".format(row["post_title"]))
-        model_config.ModelResp = model_config.call_model(MODEL_NAME, TEMP,
-                                            prompts.classification_prompt,
-                                            row["post_content"],
-                                            print_raw_response=False,
-                                            )
-        insert_classification(row["blog_id"], row["post_id"], baselineId, model_config.ModelResp.text, model_config.ModelResp.modelVersion, model_config.ModelResp.totalTokenCount, [])
-        time.sleep(10)
+        modelResp = model_config.call_model(MODEL_NAME, TEMP,
+                                                         prompts.classification_prompt,
+                                                         row["post_content"],
+                                                         print_raw_response=False,
+                                                         )
+        insert_classification(row["blog_id"], row["post_id"], baselineId, modelResp.text,
+                              modelResp.modelVersion, modelResp.totalTokenCount, modelResp.safetyRatings)
+        time.sleep(30)
 
 
 if __name__ == "__main__":

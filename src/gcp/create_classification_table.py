@@ -10,9 +10,17 @@ schema = [
     bigquery.SchemaField("model_version", "STRING", mode="REQUIRED"),
     bigquery.SchemaField("total_token_count", "INT64", mode="REQUIRED"),
     bigquery.SchemaField(
-        "hate_speech",
-        "STRING",
-        mode="REPEATED"),
+        "safety_ratings",
+        "RECORD",
+        mode="REPEATED",
+        fields=[
+            bigquery.SchemaField("category", "STRING", mode="REQUIRED"),
+            bigquery.SchemaField("probability", "STRING", mode="REQUIRED"),
+            bigquery.SchemaField("probability_score", "FLOAT64", mode="REQUIRED"),
+            bigquery.SchemaField("severity", "STRING", mode="REQUIRED"),
+            bigquery.SchemaField("severity_score", "FLOAT64", mode="REQUIRED"),
+        ],
+    ),
 ]
 
 try:
