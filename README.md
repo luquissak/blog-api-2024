@@ -18,6 +18,7 @@ py -m venv .venv
 .venv\scripts\activate
 #pip freeze >  requirements.txt
 pip install -r requirements.txt
+python -m ensurepip
 ```
 
 4. Google Setup
@@ -46,6 +47,48 @@ $env:GOOGLE_APPLICATION_CREDENTIALS="credentials\client_secret_129125337363-uci7
 #--noauth_local_webserver
 ```
 
+# BQ Commands
+
+Text Embeddings
+
+```bash
+bq mk --connection --location=us --project_id=llm-studies --connection_type=CLOUD_RESOURCE to-vertex-us-g
+bq show --connection llm-studies.us.to-vertex-us-g
+gcloud projects add-iam-policy-binding 129125337363 --member='serviceAccount:bqcx-129125337363-4se3@gcp-sa-bigquery-condel.iam.gserviceaccount.com' --role='roles/aiplatform.user' --condition=None
+```
+
+```
+CREATE OR REPLACE MODEL `llm-studies.blog.text_emb`
+REMOTE WITH CONNECTION `129125337363.us.to-vertex-us-g`
+OPTIONS (ENDPOINT = 'text-embedding-004');
+```
+
+```
+CREATE OR REPLACE TABLE `llm-studies.blog.posts_dez_2024_emb`
+as
+SELECT * FROM ML.GENERATE_TEXT_EMBEDDING(
+   MODEL `llm-studies.blog.text_emb`,
+   (SELECT post_content as content FROM `llm-studies.blog.posts_dez_2024`)
+)
+```
+
+```
+CREATE OR REPLACE VECTOR INDEX `llm-studies.blog.post_content_index`
+ON `llm-studies.blog.posts_dez_2024_emb`(text_embedding)
+OPTIONS(distance_type='COSINE', index_type='IVF');
+```
+
+```
+SELECT *
+FROM
+  VECTOR_SEARCH(
+    TABLE blog.posts_dez_2024_emb,
+    'text_embedding',
+    (SELECT content, text_embedding FROM blog.posts_dez_2024_emb),
+    'text_embedding',
+    top_k => 2);
+```
+
 # GCP
 
 Insert posts into Big Query
@@ -60,7 +103,9 @@ Post classification
 ```bash
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_model_baseline.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_classification_table.py
+.venv\scripts\activate && .venv\Scripts\python.exe test\post_classificationt.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\post_classification.py
+.venv\scripts\activate && jupyter notebook src\notebook\classification_queries.ipynb
 ```
 
 ```bash
