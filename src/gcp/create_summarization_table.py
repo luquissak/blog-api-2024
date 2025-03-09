@@ -1,12 +1,12 @@
 from google.cloud import bigquery
 client = bigquery.Client()
-table_id = "llm-studies.blog.posts_classification"
+table_id = "llm-studies.blog.posts_summarization"
 schema = [
     bigquery.SchemaField("blog_id", "INT64", mode="REQUIRED"),
     bigquery.SchemaField("post_id", "INT64", mode="REQUIRED"),
     bigquery.SchemaField("baseline_id", "INT64", mode="REQUIRED"),
     bigquery.SchemaField("log_date", "DATETIME", mode="REQUIRED"),
-    bigquery.SchemaField("classification", "STRING", mode="REQUIRED"),
+    bigquery.SchemaField("summarization", "STRING", mode="REQUIRED"),
     bigquery.SchemaField("model_version", "STRING", mode="REQUIRED"),
     bigquery.SchemaField("total_token_count", "INT64", mode="REQUIRED"),
     bigquery.SchemaField(
@@ -21,7 +21,6 @@ schema = [
             bigquery.SchemaField("severity_score", "FLOAT64", mode="REQUIRED"),
         ],
     ),
-    bigquery.SchemaField("justification", "STRING", mode="REQUIRED"),
 ]
 
 try:

@@ -9,8 +9,9 @@ import baseline
 import gcp.bq_inserts as bq_inserts
 import gcp.bq_queries as bq_queries
 
+
 client = bigquery.Client()
-TASK = "classification"
+TASK = "summarization"
 MODEL_NAME = "gemini-1.5-flash"
 TEMP = 0
 
@@ -18,21 +19,20 @@ TEMP = 0
 def main(argv):
     print("starting...")
     baselineId = baseline.create_baseline(client,
-        TASK, prompts.classification_prompt, MODEL_NAME, TEMP)
-    rows = client.query_and_wait(bq_queries.query_new_posts_for_class)
+                                          TASK, prompts.summarization_prompt, MODEL_NAME, TEMP)
+    rows = client.query_and_wait(bq_queries.query_a_post)
     print(f"rows to be checked... {rows.total_rows}")
     for row in rows:
         print("post={}".format(row["post_title"]))
         modelResp = model_config.call_model(MODEL_NAME, TEMP,
-                                            prompts.classification_prompt,
+                                            prompts.summarization_prompt,
                                             row["post_content"],
                                             print_raw_response=False,
                                             )
         modelResp_json = json.loads(modelResp.text)
-        classification = modelResp_json["category"]
-        justification = modelResp_json["justification"]
-        bq_inserts.insert_classification(client, row["blog_id"], row["post_id"], baselineId, classification, justification,
-                                         modelResp.modelVersion, modelResp.totalTokenCount, modelResp.safetyRatings)
+        summarization = modelResp_json["abstract"]
+        bq_inserts.insert_summarization(client, row["blog_id"], row["post_id"], baselineId, summarization,
+                                        modelResp.modelVersion, modelResp.totalTokenCount, modelResp.safetyRatings)
         time.sleep(30)
 
 
