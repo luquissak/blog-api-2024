@@ -1,3 +1,20 @@
+
+
+
+
+
+salvar no smith as chamadas
+logar as conversas
+
+
+
+
+
+
+
+
+
+
 # Introduction
 
 Python project to explore and analyze the reflections hosted in the blog https://www.reflexoesdofilosofo.blog.br/
@@ -195,15 +212,9 @@ Talk with the data
 ```
 
 ```bash
-.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\upload_class.py
-.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\load_class.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\upload_authors.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\insert_authors_into_bq.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_auth_table.py
-.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\upload_summ.py
-#.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\load_summ.py
-.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_summ_table.py
-.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\insert_summ_into_bq.py
 ```
 
 # Processing
