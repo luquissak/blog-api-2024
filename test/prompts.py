@@ -28,3 +28,4 @@ summarization_prompt = "" \
     "If it includes graphs, explain the findings in the graphs. " \
     "Do not include any numbers that are not mentioned in the document. " \
     "Answer in portuguese. " \
+    "The response must be a json with one field named as abstract, in portuguese."
