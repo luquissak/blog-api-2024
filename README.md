@@ -109,7 +109,7 @@ FROM
 Query passing a text
 
 ```bash
-SELECT query.query, base.content, base.statistics, distance
+SELECT query.query, base.post_title, base.post_url, base.statistics, round(cast(distance as float64), 2) as distance
 FROM
   VECTOR_SEARCH(
     TABLE blog.posts_dez_2024_emb,
@@ -117,15 +117,16 @@ FROM
     ( SELECT ml_generate_embedding_result, content AS query
   FROM ML.GENERATE_EMBEDDING(
   MODEL blog.text_emb,
-  (SELECT 'improving password security' AS content))
+  (SELECT 'teoria das formas de platão' AS content))
 ),
-    top_k => 2);
+    top_k => 5)
+order by distance desc
 ```
 
 RAG
 
 ```bash
-SELECT ml_generate_text_llm_result AS generated, prompt
+SELECT ml_generate_text_llm_result AS generated
 FROM ML.GENERATE_TEXT(
   MODEL blog.text_model,
   (
@@ -149,6 +150,15 @@ FROM ML.GENERATE_TEXT(
   STRUCT(600 AS max_output_tokens, TRUE AS flatten_json_output));
 ```
 
+Posts voew
+
+```bash
+SELECT pc.classification, p.post_title, p.post_date, p.post_url, pc.justification, ps.summarization, p.post_content, p.post_labels, p.post_replies
+FROM `llm-studies.blog.posts_dez_2024` p, `llm-studies.blog.posts_classification` pc, `llm-studies.blog.posts_summarization` ps
+WHERE p.post_id = pc.post_id AND p.post_id = ps.post_id AND pc.post_id = ps.post_id
+AND pc.baseline_id in (SELECT max(baseline_id) FROM `llm-studies.blog.model_baseline` WHERE task = 'classification')
+AND ps.baseline_id in (SELECT max(baseline_id) FROM `llm-studies.blog.model_baseline` WHERE task = 'summarization')
+```
 
 # GCP
 
@@ -166,7 +176,7 @@ Post classification
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_classification_table.py
 .venv\scripts\activate && .venv\Scripts\python.exe test\post_classificationt.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\post_classification.py
-.venv\scripts\activate && jupyter notebook src\notebook\classification_queries.ipynb
+.venv\scripts\activate && jupyter notebook src\notebook\talk_with_the_blog.ipynb
 ```
 
 Post summarization
@@ -175,7 +185,13 @@ Post summarization
 .venv\scripts\activate && .venv\Scripts\python.exe test\post_summarizationt.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_summarization_table.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\post_summarization.py
-.venv\scripts\activate && jupyter notebook src\notebook\classification_queries.ipynb
+.venv\scripts\activate && jupyter notebook src\notebook\talk_with_the_blog.ipynb
+```
+
+Talk with the data
+
+```bash
+.venv\scripts\activate && .venv\Scripts\python.exe -m streamlit run app\chat_app.py
 ```
 
 ```bash

@@ -20,7 +20,7 @@ def main(argv):
     print("starting...")
     baselineId = baseline.create_baseline(client,
                                           TASK, prompts.summarization_prompt, MODEL_NAME, TEMP)
-    rows = client.query_and_wait(bq_queries.query_a_post)
+    rows = client.query_and_wait(bq_queries.query_all_posts)
     print(f"rows to be checked... {rows.total_rows}")
     for row in rows:
         print("post={}".format(row["post_title"]))
