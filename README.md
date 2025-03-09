@@ -47,9 +47,9 @@ $env:GOOGLE_APPLICATION_CREDENTIALS="credentials\client_secret_129125337363-uci7
 #--noauth_local_webserver
 ```
 
-# BQ Commands
+# BQ Analysis
 
-Text Embeddings
+Create connection
 
 ```bash
 bq mk --connection --location=us --project_id=llm-studies --connection_type=CLOUD_RESOURCE to-vertex-us-g
@@ -57,28 +57,45 @@ bq show --connection llm-studies.us.to-vertex-us-g
 gcloud projects add-iam-policy-binding 129125337363 --member='serviceAccount:bqcx-129125337363-4se3@gcp-sa-bigquery-condel.iam.gserviceaccount.com' --role='roles/aiplatform.user' --condition=None
 ```
 
-```
+Create model: text-embedding-004
+
+```bash
 CREATE OR REPLACE MODEL `llm-studies.blog.text_emb`
 REMOTE WITH CONNECTION `129125337363.us.to-vertex-us-g`
 OPTIONS (ENDPOINT = 'text-embedding-004');
 ```
 
+
+Create model: gemini-1.5-flash-002
+
+```bash
+CREATE OR REPLACE MODEL `llm-studies.blog.text_model`
+  REMOTE WITH CONNECTION `129125337363.us.to-vertex-us-g`
+  OPTIONS (ENDPOINT = 'gemini-1.5-flash-002');
 ```
+
+Create embeddings
+
+```bash
 CREATE OR REPLACE TABLE `llm-studies.blog.posts_dez_2024_emb`
 as
 SELECT * FROM ML.GENERATE_TEXT_EMBEDDING(
    MODEL `llm-studies.blog.text_emb`,
-   (SELECT post_content as content FROM `llm-studies.blog.posts_dez_2024`)
+   (SELECT *, post_content as content FROM `llm-studies.blog.posts_dez_2024`)
 )
 ```
 
-```
+Create index: ERR (Total rows 435 is smaller than min allowed 5000 for CREATE VECTOR INDEX query with the IVF index type. Please use VECTOR_SEARCH table-valued function directly to perform the similarity search.)
+
+```bash
 CREATE OR REPLACE VECTOR INDEX `llm-studies.blog.post_content_index`
 ON `llm-studies.blog.posts_dez_2024_emb`(text_embedding)
 OPTIONS(distance_type='COSINE', index_type='IVF');
 ```
 
-```
+Query the same table
+
+```bash
 SELECT *
 FROM
   VECTOR_SEARCH(
@@ -88,6 +105,24 @@ FROM
     'text_embedding',
     top_k => 2);
 ```
+
+Query passing a text
+
+```bash
+SELECT query.query, base.content, base.statistics, distance
+FROM
+  VECTOR_SEARCH(
+    TABLE blog.posts_dez_2024_emb,
+    'text_embedding',
+    ( SELECT ml_generate_embedding_result, content AS query
+  FROM ML.GENERATE_EMBEDDING(
+  MODEL blog.text_emb,
+  (SELECT 'improving password security' AS content))
+),
+    top_k => 2);
+```
+
+
 
 # GCP
 
@@ -105,6 +140,15 @@ Post classification
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_classification_table.py
 .venv\scripts\activate && .venv\Scripts\python.exe test\post_classificationt.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\post_classification.py
+.venv\scripts\activate && jupyter notebook src\notebook\classification_queries.ipynb
+```
+
+Post summarization
+
+```bash
+.venv\scripts\activate && .venv\Scripts\python.exe test\post_summarizationt.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_summarization_table.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\post_summarization.py
 .venv\scripts\activate && jupyter notebook src\notebook\classification_queries.ipynb
 ```
 
