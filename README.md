@@ -254,3 +254,4 @@ gcloud beta run deploy --image gcr.io/PROJECT_ID/dialogflow-telegram --service-a
 - [BotFather](https://web.telegram.org/k/#@BotFather)
 - [Build history](https://console.cloud.google.com/cloud-build/builds?inv=1&invt=Abk6Jg&project=llm-studies&supportedpurview=project)
 - [Generative AI overview](https://cloud.google.com/bigquery/docs/generative-ai-overview)
+- [Build a basic LLM chat app](https://docs.streamlit.io/develop/tutorials/chat-and-llm-apps/build-conversational-apps)
