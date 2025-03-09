@@ -9,6 +9,7 @@ from vertexai.generative_models import (
 )
 from google.cloud import storage
 import time
+import csv
 
 PDF_MIME_TYPE = "application/pdf"
 
@@ -89,20 +90,36 @@ def main(argv):
     storage_client = storage.Client()
     blob_list = storage_client.list_blobs(
         "blog-files-2024", prefix="all/pdf2/")
-    with open('files/posts_summ.csv', 'a') as the_file:
-        the_file.write("summ|url\n")
+    with open('files/posts_summ.csv', 'w', newline='') as csvfile:
+        spamwriter = csv.writer(csvfile, delimiter=' ',
+                                quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        spamwriter.writerow(["summ", "url"])
         for blob_post in blob_list:
             blob_uri = 'gs://' + \
                 blob_post.id[:-(len(str(blob_post.generation)) + 1)]
-            if ".pdf" not in blob_uri: continue
-            response_text = process_document(
-                summarization_prompt,
-                blob_uri
-            )
-            new_line = response_text+"|"+blob_uri+"\n"
-            print(new_line)
-            the_file.write(new_line)
-            time.sleep(15)
+            if ".pdf" not in blob_uri:
+                continue
+            try:
+                response_text = process_document(
+                    summarization_prompt,
+                    blob_uri
+                )
+                print(blob_uri)
+                spamwriter.writerow(
+                    [response_text.replace("\n", " "), blob_uri])
+                time.sleep(10)
+            except:
+                response_text = process_document(
+                    summarization_prompt,
+                    blob_uri
+                )
+                print(blob_uri)
+                try:
+                    spamwriter.writerow(
+                      [response_text.replace("\n", " "), blob_uri])
+                except:
+                    continue
+                time.sleep(10)
 
 
 if __name__ == "__main__":

@@ -1,12 +1,16 @@
 import os
 import sys
 from dotenv import load_dotenv
+from datetime import datetime
 from oauth2client import client
 from googleapiclient import sample_tools
 
 load_dotenv()
 BLOG_ID = os.getenv('BLOG_ID')
 print("BLOG_ID", BLOG_ID)
+
+today = datetime.today().strftime('%Y%m%d') + "-"
+
 
 def main(argv):
     # Authenticate and construct service.
@@ -30,7 +34,7 @@ def main(argv):
 
     posts = service.posts()
 
-    with open('files/posts_list.csv', 'a') as the_file:
+    with open("files/"+today+"posts_list.csv", "a", encoding="utf-8") as the_file:
         the_file.write("name|title|url\n")
         for blog in thisusersblogs["items"]:
             print("The posts for %s:" % blog["name"])
@@ -40,8 +44,10 @@ def main(argv):
                 if "items" in posts_doc and not (posts_doc["items"] is None):
                     for post in posts_doc["items"]:
                         print("  %s (%s)" % (post["title"], post["url"]))
-                        the_file.write(blog["name"]+"|"+post["title"]+"|"+post["url"]+"\n")
+                        the_file.write(blog["name"]+"|" +
+                                       post["title"]+"|"+post["url"]+"\n")
                 request = posts.list_next(request, posts_doc)
+
 
 if __name__ == "__main__":
     main(sys.argv)

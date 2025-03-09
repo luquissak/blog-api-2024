@@ -1,0 +1,13 @@
+{'candidates': 
+    [
+        {'content': 
+            {'role': 'model', 
+            'parts': [{'text': '{"category": "Epistemologia"}'}]
+        }, 
+        'finish_reason': 'STOP', 
+        'safety_ratings': [{'category': 'HARM_CATEGORY_HATE_SPEECH', 'probability': 'NEGLIGIBLE', 'probability_score': 0.04663086, 'severity': 'HARM_SEVERITY_NEGLIGIBLE', 'severity_score': 0.051757812}, 
+        {'category': 'HARM_CATEGORY_DANGEROUS_CONTENT', 'probability': 'NEGLIGIBLE', 'probability_score': 0.080566406, 'severity': 'HARM_SEVERITY_NEGLIGIBLE', 'severity_score': 0.11425781}, 
+        {'category': 'HARM_CATEGORY_HARASSMENT', 'probability': 'NEGLIGIBLE', 'probability_score': 0.075683594, 'severity': 'HARM_SEVERITY_NEGLIGIBLE', 'severity_score': 0.03564453}, 
+        {'category': 'HARM_CATEGORY_SEXUALLY_EXPLICIT', 'probability': 'NEGLIGIBLE', 'probability_score': 0.09277344, 'severity': 'HARM_SEVERITY_NEGLIGIBLE', 'severity_score': 0.07714844}], 
+        'avg_logprobs': -0.008124321699142456}], 
+        'usage_metadata': {'prompt_token_count': 1648, 'candidates_token_count': 8, 'total_token_count': 1656}, 'model_version': 'gemini-1.5-flash-001'}

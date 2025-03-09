@@ -1,0 +1,52 @@
+-------Raw Response--------
+candidates {
+  content {
+    role: "model"
+    parts {
+      text: "Epistemologia \n"
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.111328125
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.0913085938
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0791015625
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.149414062
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.184570312
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.131835938
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.099609375
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.18359375
+  }
+  avg_logprobs: -0.022436980903148652
+}
+usage_metadata {
+  prompt_token_count: 1646
+  candidates_token_count: 5
+  total_token_count: 1651
+}
+model_version: "gemini-1.5-flash-001"
+
+Epistemologia
+
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1739031146.977859   13776 init.cc:229] grpc_wait_for_shutdown_with_timeout() timed out.
+(.venv) PS C:\Users\A450373\OneDrive - ATOS\source-code\pessoal\blog-api-2024> 
