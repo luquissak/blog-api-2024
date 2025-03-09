@@ -122,6 +122,32 @@ FROM
     top_k => 2);
 ```
 
+RAG
+
+```bash
+SELECT ml_generate_text_llm_result AS generated, prompt
+FROM ML.GENERATE_TEXT(
+  MODEL blog.text_model,
+  (
+    SELECT CONCAT(
+      'Qual a ideia madre do texto: ',
+      STRING_AGG(
+        FORMAT("text title: %s, text abstract: %s", base.post_title, base.post_content),
+        ',\n')
+      ) AS prompt,
+    FROM VECTOR_SEARCH(
+      TABLE blog.posts_dez_2024_emb, 'text_embedding',
+      (
+        SELECT ml_generate_embedding_result, content AS query
+        FROM ML.GENERATE_EMBEDDING(
+          MODEL blog.text_emb,
+         (SELECT 'teoria das formas de platão' AS content)
+        )
+      ),
+    top_k => 5, options => '{"fraction_lists_to_search": 0.01}')
+  ),
+  STRUCT(600 AS max_output_tokens, TRUE AS flatten_json_output));
+```
 
 
 # GCP
@@ -211,3 +237,4 @@ gcloud beta run deploy --image gcr.io/PROJECT_ID/dialogflow-telegram --service-a
 - [Telegram Integration for Dialogflow CX](https://github.com/GoogleCloudPlatform/dialogflow-integrations/tree/master/cx/telegram)
 - [BotFather](https://web.telegram.org/k/#@BotFather)
 - [Build history](https://console.cloud.google.com/cloud-build/builds?inv=1&invt=Abk6Jg&project=llm-studies&supportedpurview=project)
+- [Generative AI overview](https://cloud.google.com/bigquery/docs/generative-ai-overview)
