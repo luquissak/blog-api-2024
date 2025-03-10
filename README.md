@@ -49,6 +49,17 @@ gcloud auth application-default set-quota-project llm-studies
 gcloud config list
 ```
 
+
+4. Load var
+
+```bash
+get-content .env | foreach {
+    $name, $value = $_.split('=')
+    set-content env:\$name $value
+    echo $name $value
+}
+```
+
 # Build and Test
 
 ```bash

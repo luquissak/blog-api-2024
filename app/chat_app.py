@@ -14,8 +14,8 @@ def response_generator(prompt):
         ]
     )
 
-    print(f"PROMPT: {prompt}")
-    response = backend_chat.qa(prompt)
+    print(f"PROMPT: {prompt.strip()}")
+    response = backend_chat.rag(prompt.strip())
     print(f"RESPONSE: {response}")
 
     for word in response.split():
