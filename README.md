@@ -1,6 +1,5 @@
 
-
-
+python -m unittest discover -s tests
 
 
 salvar no smith as chamadas
@@ -72,6 +71,7 @@ $env:GOOGLE_APPLICATION_CREDENTIALS="credentials\client_secret_129125337363-uci7
 .venv\scripts\activate && .venv\Scripts\python.exe src\convert_to_pdf.py
 .venv\scripts\activate && .venv\Scripts\python.exe test\post_fields.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\get_comments.py
+.venv\scripts\activate && .venv\Scripts\python.exe tests\test_rag_bq.py
 #--noauth_local_webserver
 ```
 
@@ -205,6 +205,11 @@ Post classification
 .venv\scripts\activate && .venv\Scripts\python.exe test\post_classificationt.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\post_classification.py
 .venv\scripts\activate && jupyter notebook src\notebook\talk_with_the_blog.ipynb
+.venv\scripts\activate && jupyter notebook src\notebook\rag_gcp_agent_bq_full_blog.ipynb
+.venv\scripts\activate && jupyter notebook src\notebook
+
+http://localhost:8888/notebooks/rag_gcp_agent_bq_query_retrieve.ipynb
+
 ```
 
 Post summarization
@@ -214,6 +219,14 @@ Post summarization
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_summarization_table.py
 .venv\scripts\activate && .venv\Scripts\python.exe src\post_summarization.py
 .venv\scripts\activate && jupyter notebook src\notebook\talk_with_the_blog.ipynb
+```
+
+Post authors
+
+```bash
+.venv\scripts\activate && .venv\Scripts\python.exe test\post_authors.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\gcp\create_authors_table.py
+.venv\scripts\activate && .venv\Scripts\python.exe src\post_authors.py
 ```
 
 Talk with the data

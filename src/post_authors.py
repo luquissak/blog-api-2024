@@ -1,144 +1,42 @@
 import sys
-import json
 from dotenv import load_dotenv
-from vertexai.generative_models import (
-    GenerationConfig,
-    GenerativeModel,
-    HarmBlockThreshold,
-    HarmCategory,
-    Part,
-)
-from google.cloud import storage
+from google.cloud import bigquery
 import time
+import prompts
+import model_config
+import json
+import baseline
+import gcp.bq_inserts as bq_inserts
+import gcp.bq_queries as bq_queries
 
-PDF_MIME_TYPE = "application/pdf"
-
-blogger_extraction_prompt = """You are a document entity extraction specialist. Given a document, your task is to extract the text value of the following entities:
-{
-	"authors": [
-		{
-			"author": "",
-		}
-	],
-	"theme": "",
-	"philosophical area": "",
-}
-
-- The JSON schema must be followed during the extraction.
-- The values must only include text found in the document
-- Do not normalize any entity value.
-- If an entity is not found in the document, set the entity value to null.
-- An author is any person name or philosopher found in the document.
-- If an author is not found in the document, set the entity value to Luis Quissak.
-
-"""
-
-# Load the Gemini 1.5 Flash model
-model = GenerativeModel(
-    "gemini-1.5-flash",
-    safety_settings={
-        HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_ONLY_HIGH
-    },
-)
-# This Generation Config sets the model to respond in JSON format.
-generation_config = GenerationConfig(
-    temperature=0.0, response_mime_type="application/json"
-)
-
-
-def print_multimodal_prompt(contents: list) -> None:
-    """
-    Given contents that would be sent to Gemini,
-    output the full multimodal prompt for ease of readability.
-    """
-    for content in contents:
-        if not isinstance(content, Part):
-            print(content)
-        elif content.inline_data:
-            display_pdf(content.inline_data.data)
-        elif content.file_data:
-            gcs_url = (
-                "https://storage.googleapis.com/"
-                + content.file_data.file_uri.replace("gs://", "").replace(" ", "%20")
-            )
-            print(f"PDF URL: {gcs_url}")
-
-
-# Send Google Cloud Storage Document to Vertex AI
-def process_document(
-    prompt: str,
-    file_uri: str,
-    mime_type: str = PDF_MIME_TYPE,
-    generation_config: GenerationConfig | None = None,
-    print_prompt: bool = False,
-    print_raw_response: bool = False,
-) -> str:
-    # Load file directly from Google Cloud Storage
-    file_part = Part.from_uri(
-        uri=file_uri,
-        mime_type=mime_type,
-    )
-
-    # Load contents
-    contents = [file_part, prompt]
-
-    # Send to Gemini
-    response = model.generate_content(
-        contents, generation_config=generation_config)
-
-    if print_prompt:
-        print("-------Prompt--------")
-        print_multimodal_prompt(contents)
-
-    if print_raw_response:
-        print("\n-------Raw Response--------")
-        print(response)
-
-    return response.text
+client = bigquery.Client()
+TASK = "ner"
+MODEL_NAME = "gemini-1.5-flash"
+TEMP = 0
 
 
 def main(argv):
     print("starting...")
-    storage_client = storage.Client()
-    blob_list = storage_client.list_blobs(
-        "blog-files-2024", prefix="all/pdf2/")
-    with open('files/posts_authors.csv', 'a') as the_file:
-        the_file.write("authors|url\n")
-        for blob_post in blob_list:
-            blob_uri = 'gs://' + \
-                blob_post.id[:-(len(str(blob_post.generation)) + 1)]
-            if ".pdf" not in blob_uri: continue
-            try:
-                response_text = process_document(
-                    blogger_extraction_prompt,
-                    blob_uri,
-                    generation_config=generation_config,
-                    print_prompt=False,
-                )
-                try:
-                    json_object = json.loads(response_text)
-                except:
-                    print(blob_uri)    
-                    continue
-                new_line = str(json_object)+"|"+blob_uri+"\n"
-                print(new_line)
-                the_file.write(new_line)
-                time.sleep(10)
-            except:
-                response_text = process_document(
-                    blogger_extraction_prompt,
-                    blob_uri,
-                    generation_config=generation_config,
-                    print_prompt=False,
-                )
-                json_object = json.loads(response_text)
-                new_line = str(json_object)+"|"+blob_uri+"\n"
-                try:
-                    print(new_line)
-                    the_file.write(new_line)
-                except:
-                    continue
-                time.sleep(10)
+    baselineId = baseline.create_baseline(client,
+        TASK, prompts.authors_prompt, MODEL_NAME, TEMP)
+    rows = client.query_and_wait(bq_queries.query_new_posts_for_authors)
+    print(f"rows to be checked... {rows.total_rows}")
+    for row in rows:
+        print("post={}".format(row["post_title"]))
+        modelResp = model_config.call_model(MODEL_NAME, TEMP,
+                                            prompts.authors_prompt,
+                                            row["post_content"],
+                                            print_raw_response=False,
+                                            )
+        modelResp_json = json.loads(modelResp.text)
+        authors = modelResp_json["authors"]
+        authors_l = []
+        for author in modelResp_json["authors"]:
+            authors_l.append(author["author"])
+        print(f"authors={authors_l}")
+        bq_inserts.insert_authors(client, row["blog_id"], row["post_id"], baselineId, authors_l,
+                                         modelResp.modelVersion, modelResp.totalTokenCount, modelResp.safetyRatings, modelResp.finish_reason)
+        time.sleep(30)
 
 
 if __name__ == "__main__":

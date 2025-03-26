@@ -3,6 +3,7 @@ from vertexai.generative_models import (
     GenerativeModel,
     HarmBlockThreshold,
     HarmCategory,
+    SafetySetting,
 )
 
 
@@ -16,12 +17,19 @@ def call_model(model_name: str,
     contents = [content, prompt]
     model = GenerativeModel(
         model_name=model_name,
-        safety_settings={
-            HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_ONLY_HIGH
-        },
+        safety_settings=[
+    SafetySetting(
+        category=HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
+        threshold=HarmBlockThreshold.BLOCK_LOW_AND_ABOVE,
+    ),
+    SafetySetting(
+        category=HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
+        threshold=HarmBlockThreshold.BLOCK_NONE,
+    ),
+        ]
     )
     generation_config = GenerationConfig(
-        temperature=temp, response_mime_type="application/json"
+        temperature=temp, response_mime_type="application/json", top_p=0.95, seed=0
     )
     response = model.generate_content(
         contents, generation_config=generation_config)
@@ -44,4 +52,8 @@ class ModelResp:
         self.modelVersion = dict_response["model_version"]
         self.safetyRatings = sr
         self.totalTokenCount = dict_response["usage_metadata"]["total_token_count"]
-        self.text = dict_response["candidates"][0]["content"]["parts"][0]["text"]
+        self.finish_reason = dict_response["candidates"][0]["finish_reason"]
+        if self.finish_reason != "STOP":
+            self.text = """{"authors": [{\"author\": \"CENSURADO\"}]}"""
+        else:
+            self.text = dict_response["candidates"][0]["content"]["parts"][0]["text"]
