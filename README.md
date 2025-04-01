@@ -233,6 +233,10 @@ Talk with the data
 
 ```bash
 .venv\scripts\activate && .venv\Scripts\python.exe -m streamlit run app\chat_app.py
+.venv\scripts\activate && .venv\Scripts\python.exe -m streamlit run app\chat_app2.py
+.venv\scripts\activate && .venv\Scripts\python.exe -m streamlit run app\chat_app3.py
+.venv\scripts\activate && .venv\Scripts\python.exe -m chainlit run app\chat_cl.py -w
+.venv\scripts\activate && .venv\Scripts\python.exe -m chainlit run app\chat_cl_rag.py -w
 .venv\scripts\activate && jupyter notebook src\notebook\
 .venv\scripts\activate && .venv\Scripts\python.exe mongo\ping_db.py
 .venv\scripts\activate && .venv\Scripts\python.exe mongo\vector_index.py
