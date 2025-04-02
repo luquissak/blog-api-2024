@@ -1,0 +1,3742 @@
+[
+    {
+        "kind": "youtube#searchResult",
+        "etag": "3eIGINtdrJBljKzrdPzz7qs9Sxw",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "Jlj89--_iXY"
+        },
+        "snippet": {
+            "publishedAt": "2024-09-22T22:13:47Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "talism\u00e3, 14 Bis (3)",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/Jlj89--_iXY/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/Jlj89--_iXY/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/Jlj89--_iXY/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-09-22T22:13:47Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "9jz5UuNdxjgn89JnfZg_WpkSwp8",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "n4eyv3OPDxo"
+        },
+        "snippet": {
+            "publishedAt": "2020-02-09T11:12:48Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "1 dia na Bahia - feat Luiz Tsuha",
+            "description": "V\u00e9spera da comemora\u00e7\u00e3o de Iemanj\u00e1 2020.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/n4eyv3OPDxo/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/n4eyv3OPDxo/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/n4eyv3OPDxo/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-02-09T11:12:48Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "O4m4xQMKuzoquHDrzEpLlVgPvZQ",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "SZ46itOSGkk"
+        },
+        "snippet": {
+            "publishedAt": "2022-09-25T15:31:31Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Guaratinguet\u00e1 Dilermando Reis",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/SZ46itOSGkk/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/SZ46itOSGkk/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/SZ46itOSGkk/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-09-25T15:31:31Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "A0Nqz3rGTMDifkCnIjgRP5L0FV4",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "IeZIbmx9krY"
+        },
+        "snippet": {
+            "publishedAt": "2024-07-07T13:32:04Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "RIP Jo\u00e3o #ziriguidum 6/7/24",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/IeZIbmx9krY/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/IeZIbmx9krY/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/IeZIbmx9krY/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-07-07T13:32:04Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "5GfCvCJtB-_YdT2P4bxWQBHvftY",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "sOVt5idvpik"
+        },
+        "snippet": {
+            "publishedAt": "2021-07-03T22:19:38Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "arrast\u00e3o #3j",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/sOVt5idvpik/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/sOVt5idvpik/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/sOVt5idvpik/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-07-03T22:19:38Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "KRidmdYiJNphMhJRJYdwLOrZ-6w",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "MjY4GIo8E7w"
+        },
+        "snippet": {
+            "publishedAt": "2025-04-02T10:55:12Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Atividade de Produ\u00e7\u00e3o em Libras A05",
+            "description": "Minha m\u00e3e nasceu no dia 25 do m\u00eas de setembro do ano de 1945. Meu pai nasceu no dia 2 do m\u00eas de fevereiro do ano de ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/MjY4GIo8E7w/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/MjY4GIo8E7w/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/MjY4GIo8E7w/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-04-02T10:55:12Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "m8FY1ltQTQcZXeA_LlqHF4hMu9U",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "g7cwo3_yhTI"
+        },
+        "snippet": {
+            "publishedAt": "2023-10-23T00:33:28Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "mar, 22 de outubro de 2023",
+            "description": "Pousada Luar das \u00e1guas.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/g7cwo3_yhTI/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/g7cwo3_yhTI/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/g7cwo3_yhTI/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-10-23T00:33:28Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "9y-Fw0pxdgvmS6gpoll7y1Nu_GY",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "E99ia_JOkqo"
+        },
+        "snippet": {
+            "publishedAt": "2020-03-01T17:53:49Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Bloco Estrambelhados - Paranga",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/E99ia_JOkqo/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/E99ia_JOkqo/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/E99ia_JOkqo/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-03-01T17:53:49Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "vKu3G_A1EFR2b8RdtnaEevz8up0",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "uMZo4HuIskY"
+        },
+        "snippet": {
+            "publishedAt": "2024-09-22T22:13:55Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "talism\u00e3, 14 Bis (2)",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/uMZo4HuIskY/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/uMZo4HuIskY/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/uMZo4HuIskY/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-09-22T22:13:55Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "Kbhq6RvtH6SHtCj8FgU392xzWf0",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "bP-dyzrzn-4"
+        },
+        "snippet": {
+            "publishedAt": "2021-07-03T22:16:35Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Bloquinho #3J",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/bP-dyzrzn-4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/bP-dyzrzn-4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/bP-dyzrzn-4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-07-03T22:16:35Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "K6PfTH2UYveFAnGGq05nqkAr7K0",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "tdQ6GMEUws4"
+        },
+        "snippet": {
+            "publishedAt": "2024-09-22T22:13:37Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "talism\u00e3, 14 Bis (1)",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/tdQ6GMEUws4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/tdQ6GMEUws4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/tdQ6GMEUws4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-09-22T22:13:37Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "YkyOXBjzDNWFgS1-Uc_nBpHIDe8",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "Iu9Ae7yYccQ"
+        },
+        "snippet": {
+            "publishedAt": "2024-12-08T13:22:32Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "beira Rio",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/Iu9Ae7yYccQ/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/Iu9Ae7yYccQ/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/Iu9Ae7yYccQ/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-12-08T13:22:32Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "NSKJID-rAomV6ZRhJDDtrexcj4k",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "TCq9RMmXBA8"
+        },
+        "snippet": {
+            "publishedAt": "2022-03-19T12:21:50Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "caipira 22",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/TCq9RMmXBA8/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/TCq9RMmXBA8/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/TCq9RMmXBA8/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-03-19T12:21:50Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "EmPpOZ9d1TFv2zWWdk_zIrxJpII",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "UEKSrrzPSfI"
+        },
+        "snippet": {
+            "publishedAt": "2024-12-08T13:17:20Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Tamandar\u00e9",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/UEKSrrzPSfI/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/UEKSrrzPSfI/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/UEKSrrzPSfI/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-12-08T13:17:20Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "B-mtj4t2eWIFv0DHrZ173jzeO9U",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "gLR3TvhzRsA"
+        },
+        "snippet": {
+            "publishedAt": "2024-12-08T13:17:37Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Tamandar\u00e9",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/gLR3TvhzRsA/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/gLR3TvhzRsA/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/gLR3TvhzRsA/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-12-08T13:17:37Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "7MfSLd1e-7NrfEI_n9jwq-l0v0g",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "YJB3HypYBPw"
+        },
+        "snippet": {
+            "publishedAt": "2021-12-30T12:51:47Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Tornado em Itamambuca",
+            "description": "Tornado atinge praia de Itamambuca em Ubatuba ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/YJB3HypYBPw/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/YJB3HypYBPw/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/YJB3HypYBPw/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-12-30T12:51:47Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "WhFh0Rtf39EQJhFymRepfkf19nw",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "0Xzo3gsBiJM"
+        },
+        "snippet": {
+            "publishedAt": "2025-04-02T10:15:08Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Atividade de Produ\u00e7\u00e3o em Libras A01",
+            "description": "Enunciado: Passo 1: Leia com cuidado a p\u00e1gina com as dicas de treinamento desta semana e pratique os sinais indicados.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/0Xzo3gsBiJM/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/0Xzo3gsBiJM/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/0Xzo3gsBiJM/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-04-02T10:15:08Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "dETCq4iij_Gm8SzHa4W-pMYJWVc",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "ASh-la1EpdA"
+        },
+        "snippet": {
+            "publishedAt": "2022-03-19T12:23:35Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "caipira 22",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/ASh-la1EpdA/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/ASh-la1EpdA/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/ASh-la1EpdA/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-03-19T12:23:35Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "MjcewaCVQKa1PE2r-TgxBb6pnpY",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "IFKmiyeHbEI"
+        },
+        "snippet": {
+            "publishedAt": "2022-04-15T14:42:07Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "street em frente ao ch\u00e3o",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/IFKmiyeHbEI/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/IFKmiyeHbEI/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/IFKmiyeHbEI/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-04-15T14:42:07Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "KTXlCJ27frN5KEUMIuuv3oAfa0U",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "6GlK2nF6joQ"
+        },
+        "snippet": {
+            "publishedAt": "2021-07-03T22:28:38Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "\ud83d\udd25 no genocida #3j",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/6GlK2nF6joQ/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/6GlK2nF6joQ/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/6GlK2nF6joQ/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-07-03T22:28:38Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "KMiReFAqxNlCGK2ZkRsf5BUy1GU",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "C-gNScPFeJQ"
+        },
+        "snippet": {
+            "publishedAt": "2023-07-08T03:33:40Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Z\u00e9 de volta pra o oficina (1)",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/C-gNScPFeJQ/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/C-gNScPFeJQ/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/C-gNScPFeJQ/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-07-08T03:33:40Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "tcxUmQuN1BW7RJuwPyNiZi1FElA",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "QnjA6B5AKH8"
+        },
+        "snippet": {
+            "publishedAt": "2025-03-09T20:58:31Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "arriba 2",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/QnjA6B5AKH8/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/QnjA6B5AKH8/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/QnjA6B5AKH8/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-03-09T20:58:31Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "As5ML0Q_2qyUb1zEjeYykPgcINk",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "6BNWM60V3tE"
+        },
+        "snippet": {
+            "publishedAt": "2025-01-12T10:57:53Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "volta Z\u00e9, vai vai 2025",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/6BNWM60V3tE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/6BNWM60V3tE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/6BNWM60V3tE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-01-12T10:57:53Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "wVE39pyjSha5pwsq48lYyGJYUF8",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "v4trw2W9qls"
+        },
+        "snippet": {
+            "publishedAt": "2020-03-01T18:45:05Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Bloco Estrambelhados - Estrambelhados",
+            "description": "Carnaval 2020.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/v4trw2W9qls/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/v4trw2W9qls/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/v4trw2W9qls/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-03-01T18:45:05Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "Lm62_LGefSJgV9LKlQy6vB_DUxA",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "own4LYhhOmk"
+        },
+        "snippet": {
+            "publishedAt": "2022-03-19T12:33:15Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Barbosa e Pedrinho 22",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/own4LYhhOmk/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/own4LYhhOmk/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/own4LYhhOmk/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-03-19T12:33:15Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "fzQMVSxgm3GdnIGLUSZFrjPH3PY",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "JqeUvZH9628"
+        },
+        "snippet": {
+            "publishedAt": "2025-03-09T20:59:03Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "arriba 3",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/JqeUvZH9628/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/JqeUvZH9628/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/JqeUvZH9628/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-03-09T20:59:03Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "m1hd06cCW-SGRpCCGlrfEnFWHiM",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "b9UJdhwsFyQ"
+        },
+        "snippet": {
+            "publishedAt": "2016-11-29T21:40:34Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Porcada acordando a gente na madruga",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/b9UJdhwsFyQ/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/b9UJdhwsFyQ/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/b9UJdhwsFyQ/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2016-11-29T21:40:34Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "BjznzBsIxnA596i11BCDIB5z8m4",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "JTS6Em08YHE"
+        },
+        "snippet": {
+            "publishedAt": "2025-03-09T20:57:46Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "arriba",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/JTS6Em08YHE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/JTS6Em08YHE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/JTS6Em08YHE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-03-09T20:57:46Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "T1uk8wsUfWnDf9p3SjsjhyWIiSQ",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "XUeAQXL_0jc"
+        },
+        "snippet": {
+            "publishedAt": "2024-11-15T16:04:26Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Chit chat Ryle \u2010 Feito com o Clipchamp",
+            "description": "https://opessoa.fflch.usp.br/sites/opessoa.fflch.usp.br/files/Ryle-Mito-Descartes-2.pdf.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/XUeAQXL_0jc/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/XUeAQXL_0jc/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/XUeAQXL_0jc/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-11-15T16:04:26Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "DazO0CdAJ1V2RF8CQPUV-3iz6Sg",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "IsnQVKlrRKY"
+        },
+        "snippet": {
+            "publishedAt": "2024-12-08T12:28:29Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Bonecos",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/IsnQVKlrRKY/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/IsnQVKlrRKY/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/IsnQVKlrRKY/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-12-08T12:28:29Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "b3VdOMADHnmdOwL_N3hbzSfHMFE",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "ri4Q1ln5k9A"
+        },
+        "snippet": {
+            "publishedAt": "2024-12-08T13:16:26Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "bonecos",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/ri4Q1ln5k9A/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/ri4Q1ln5k9A/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/ri4Q1ln5k9A/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-12-08T13:16:26Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "p5uuasgfGRwqPWEh3nGclO4DIhY",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "F1c-vlETcco"
+        },
+        "snippet": {
+            "publishedAt": "2024-12-08T13:18:45Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "mocidade",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/F1c-vlETcco/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/F1c-vlETcco/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/F1c-vlETcco/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-12-08T13:18:45Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "QwMQzPGV2WlOhnbwSCWidcL9YwM",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "Svor8qPYQlg"
+        },
+        "snippet": {
+            "publishedAt": "2023-11-18T23:10:50Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Ti\u00e3o Preto na Benedito - cadeira vazia",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/Svor8qPYQlg/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/Svor8qPYQlg/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/Svor8qPYQlg/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-11-18T23:10:50Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "zsvp7sWDM7CRn-Mkiz8pPXANq_w",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "FCKEsg5oQmo"
+        },
+        "snippet": {
+            "publishedAt": "2014-02-15T03:36:35Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "capu na fcl",
+            "description": "s\u00f3 em sampa capoeira na paulista e com chuva. doido.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/FCKEsg5oQmo/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/FCKEsg5oQmo/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/FCKEsg5oQmo/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2014-02-15T03:36:35Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "vI4no4AoAgaTZ34TKutF8CHZJeQ",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "xK4YSDAa4hs"
+        },
+        "snippet": {
+            "publishedAt": "2025-01-26T20:37:33Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Lavagem Santo Amaro 2025",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/xK4YSDAa4hs/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/xK4YSDAa4hs/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/xK4YSDAa4hs/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-01-26T20:37:33Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "ZjrK0K8OPAz7SkLhvwyRRFzlcg0",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "OC1b5OGcmrY"
+        },
+        "snippet": {
+            "publishedAt": "2021-12-30T20:07:11Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "The rescue",
+            "description": "resgate na barra seca com participa\u00e7\u00e3o especial do Jo\u00e3o.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/OC1b5OGcmrY/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/OC1b5OGcmrY/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/OC1b5OGcmrY/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-12-30T20:07:11Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "TVHDvE8T2UgzJXkB21rXMhh3VT4",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "zsC_TQTvTVY"
+        },
+        "snippet": {
+            "publishedAt": "2024-11-09T18:56:20Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Veneza",
+            "description": "a story that Dri told about the strawberry man.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/zsC_TQTvTVY/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/zsC_TQTvTVY/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/zsC_TQTvTVY/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-11-09T18:56:20Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "erPE-we-urdAFhQA96a0x65uX2A",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "EYlBihithBs"
+        },
+        "snippet": {
+            "publishedAt": "2016-05-16T00:20:53Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Festa do Esp\u00edrito, SLP - 2016",
+            "description": "Festa do Divino, SLP - 2016.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/EYlBihithBs/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/EYlBihithBs/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/EYlBihithBs/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2016-05-16T00:20:53Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "p4v3m2qisgRKhlC4ZtHGre08_uo",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "EU97EHvkslE"
+        },
+        "snippet": {
+            "publishedAt": "2025-01-30T13:41:06Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "sem sombreiro no Porto da Barra",
+            "description": "A gente em Salvador foi na praia e n\u00e3o deu pra sentar na areia.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/EU97EHvkslE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/EU97EHvkslE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/EU97EHvkslE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-01-30T13:41:06Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "ew7s6VkzLtkeIhoLqTsjcsMmOoM",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "U_UzCSlvdfk"
+        },
+        "snippet": {
+            "publishedAt": "2022-08-24T12:12:13Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "pinheiro quebrado",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/U_UzCSlvdfk/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/U_UzCSlvdfk/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/U_UzCSlvdfk/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-08-24T12:12:13Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "4lZL_FpEwq_KJc2r5zyRHD9UMpQ",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "C44VVA3Vu_s"
+        },
+        "snippet": {
+            "publishedAt": "2025-02-23T13:46:11Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Lan\u00e7amento tratado sobre a esb\u00f3rnia",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/C44VVA3Vu_s/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/C44VVA3Vu_s/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/C44VVA3Vu_s/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-02-23T13:46:11Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "pEJrH8kZcGgLywH6EOxedVw9RTw",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "TVk_QsyIJTU"
+        },
+        "snippet": {
+            "publishedAt": "2025-01-28T16:29:17Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Porto da Barra sem barraca",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/TVk_QsyIJTU/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/TVk_QsyIJTU/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/TVk_QsyIJTU/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-01-28T16:29:17Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "BFCmiPw2FkLZRVcZQHKRMGtVyIg",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "hD5u7_dagz4"
+        },
+        "snippet": {
+            "publishedAt": "2025-04-02T10:55:08Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Atividade de Produ\u00e7\u00e3o em Libras A04",
+            "description": "Assistimos na aula de hoje profiss\u00f5es que o surdo n\u00e3o pode trabalhar: ator, cantor, atendente de telemarketing, guarda de ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/hD5u7_dagz4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/hD5u7_dagz4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/hD5u7_dagz4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-04-02T10:55:08Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "Ev5PcCVakIMfCQHZfubtBmd7yKY",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "xbto_b-4Q7A"
+        },
+        "snippet": {
+            "publishedAt": "2025-04-02T10:55:30Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Atividade de Produ\u00e7\u00e3o em Libras A07",
+            "description": "Boa noite. Meu nome \u00e9 Isa\u00edas. Eu estudo Letras na USP. Meu amigo estuda F\u00edsica e a irm\u00e3 dele estuda Biologia\".",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/xbto_b-4Q7A/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/xbto_b-4Q7A/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/xbto_b-4Q7A/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-04-02T10:55:30Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "fkR4mG_kPIk0EYujzJ-FxzYZq5o",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "ywQAw-bppXg"
+        },
+        "snippet": {
+            "publishedAt": "2025-04-02T10:55:39Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Atividade de Produ\u00e7\u00e3o em Libras A10",
+            "description": "Ol\u00e1, meu nome \u00e9 Luis Fernando, minha idade \u00e9 de 40 anos. Eu moro em S\u00e3o Paulo, bairro de Pinheiros e estudo Filosofia.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/ywQAw-bppXg/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/ywQAw-bppXg/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/ywQAw-bppXg/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-04-02T10:55:39Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "E5hKZcY7pDkyj67cjNDQVbxLKRA",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "adnWIeem02c"
+        },
+        "snippet": {
+            "publishedAt": "2023-07-08T03:23:26Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "chegada Z\u00e9 Celso 7 de julho de 2023",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/adnWIeem02c/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/adnWIeem02c/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/adnWIeem02c/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-07-08T03:23:26Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "YT624OoLU4DfPn9hSLrjuU_gSjA",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "eK3gXHuYenk"
+        },
+        "snippet": {
+            "publishedAt": "2025-04-02T10:55:04Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Atividade de Produ\u00e7\u00e3o em Libras A03",
+            "description": "No passado eu n\u00e3o gostava de comer de manh\u00e3. Hoje eu gosto de comer de manh\u00e3 suco de laranja com mam\u00e3o todos os dias ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/eK3gXHuYenk/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/eK3gXHuYenk/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/eK3gXHuYenk/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-04-02T10:55:04Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "1TzhRk3fggxZH6ogHrCU5tEghtU",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "I8z0VckCgtc"
+        },
+        "snippet": {
+            "publishedAt": "2025-03-20T02:38:32Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Opini\u00e3o filos\u00f3fica",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/I8z0VckCgtc/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/I8z0VckCgtc/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/I8z0VckCgtc/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-03-20T02:38:32Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "cwxGG32NOD8JDKaSPWJ4MYWz6z0",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "KOdRnYqVbVk"
+        },
+        "snippet": {
+            "publishedAt": "2022-12-16T02:01:06Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "amiguinho",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/KOdRnYqVbVk/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/KOdRnYqVbVk/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/KOdRnYqVbVk/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-12-16T02:01:06Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "mcceHs3JKUnlR2oemL0CYjDt6B4",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "AON5nfOH0vg"
+        },
+        "snippet": {
+            "publishedAt": "2025-04-02T10:55:36Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Atividade de Produ\u00e7\u00e3o em Libras A09",
+            "description": "De segunda a sexta Giovane estuda e trabalha. A fruta que Giovane mais gosta \u00e9 ma\u00e7a. Ele gosta de suco de ma\u00e7a.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/AON5nfOH0vg/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/AON5nfOH0vg/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/AON5nfOH0vg/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-04-02T10:55:36Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "73zAP_GAjyVJqjYIMhgvE-8hbIo",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "NAuIiPt2e-4"
+        },
+        "snippet": {
+            "publishedAt": "2025-04-02T10:55:25Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Atividade de Produ\u00e7\u00e3o em Libras A06",
+            "description": "Minha m\u00e3e se chama Maria Dulce de Siqueira Quissak Pereira e tem a idade de 71, meu pai se chama Jos\u00e9 Oswaldo Quissak ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/NAuIiPt2e-4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/NAuIiPt2e-4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/NAuIiPt2e-4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-04-02T10:55:25Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "5OmXxvJnK7KUhwj_R4c_R3Tlw3U",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "UNM-x3PCIl0"
+        },
+        "snippet": {
+            "publishedAt": "2023-09-24T22:37:07Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Nestor",
+            "description": "V\u00eddeo de Lu\u00eds Quissak.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/UNM-x3PCIl0/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/UNM-x3PCIl0/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/UNM-x3PCIl0/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-09-24T22:37:07Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "45LLWOXeUQKdRP2TI8D9bhxPlJw",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "V29-p7nFag8"
+        },
+        "snippet": {
+            "publishedAt": "2020-06-11T16:05:11Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "A intelig\u00eancia artificial no caminho do cognitivismo da representa\u00e7\u00e3o ao dinamismo do Dasein",
+            "description": "Cr\u00edtica de Dreyfus ao cognitivismo pela via heideggeriana.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/V29-p7nFag8/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/V29-p7nFag8/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/V29-p7nFag8/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-06-11T16:05:11Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "fSazJ1Tfjm_RASanaPaRF3tgwu8",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "lYbrOzne4rE"
+        },
+        "snippet": {
+            "publishedAt": "2025-04-02T10:55:33Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Atividade de Produ\u00e7\u00e3o em Libras A08",
+            "description": "O cavalo \u00e9 mais forte que o pato. O pato \u00e9 melhor que o cavalo.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/lYbrOzne4rE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/lYbrOzne4rE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/lYbrOzne4rE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-04-02T10:55:33Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "r-a1LiJSlp2_1s693iqpjhs5y9k",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "Ql4B2ndvzjs"
+        },
+        "snippet": {
+            "publishedAt": "2024-08-02T15:38:37Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "toca o hino!!",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/Ql4B2ndvzjs/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/Ql4B2ndvzjs/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/Ql4B2ndvzjs/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-08-02T15:38:37Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "WBgTg-5Btg8ffHncsMumi4B94gw",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "Oa6-N6hAaqg"
+        },
+        "snippet": {
+            "publishedAt": "2025-02-21T22:37:04Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Apontar n\u00e3o \u00e9 nada",
+            "description": "O texto discute como usamos a linguagem para dar significado \u00e0s coisas, diferenciando o ato de apontar para objetos concretos ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/Oa6-N6hAaqg/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/Oa6-N6hAaqg/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/Oa6-N6hAaqg/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-02-21T22:37:04Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "Kou3Dkmw41WYpObXDtyzhVjTu40",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "0SuNYlQ8HsE"
+        },
+        "snippet": {
+            "publishedAt": "2023-10-23T00:34:29Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Guido, cueira",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/0SuNYlQ8HsE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/0SuNYlQ8HsE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/0SuNYlQ8HsE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-10-23T00:34:29Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "GZMMqwLW5yhz1peZlp86ki0MeVY",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "v3s5Y0SAGw0"
+        },
+        "snippet": {
+            "publishedAt": "2020-09-20T12:43:51Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Trazendo a segunda pessoa para o debate",
+            "description": "Refer\u00eancias: https://www.reflexoesdofilosofo.blog.br/2020/09/trazendo-segunda-pessoa-para-o-debate.html ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/v3s5Y0SAGw0/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/v3s5Y0SAGw0/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/v3s5Y0SAGw0/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-09-20T12:43:51Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "jj2m6Sj7a7ozadmFdyP-RMAQwl4",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "e3_qOvAGZuY"
+        },
+        "snippet": {
+            "publishedAt": "2024-08-24T20:30:54Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "refor\u00e7o",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/e3_qOvAGZuY/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/e3_qOvAGZuY/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/e3_qOvAGZuY/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-08-24T20:30:54Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "B4cWc7vjMj5BL9NEKBklJo4mbcQ",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "jGfPWkyQIVI"
+        },
+        "snippet": {
+            "publishedAt": "2024-10-11T22:12:23Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "searle contra dennett",
+            "description": "Este v\u00eddeo foi criado com o Clipchamp.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/jGfPWkyQIVI/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/jGfPWkyQIVI/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/jGfPWkyQIVI/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-10-11T22:12:23Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "7oJ7ko5aiuRTzmCYMBNeNQ8HhRE",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "Efvv9LnMWjI"
+        },
+        "snippet": {
+            "publishedAt": "2020-06-06T12:40:36Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Bacurau US",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/Efvv9LnMWjI/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/Efvv9LnMWjI/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/Efvv9LnMWjI/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-06-06T12:40:36Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "94CnN3kKYFRRp7qz5LfhOFrf4XA",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "GEAf0okmjhg"
+        },
+        "snippet": {
+            "publishedAt": "2025-03-17T21:55:15Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "assuma",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/GEAf0okmjhg/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/GEAf0okmjhg/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/GEAf0okmjhg/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-03-17T21:55:15Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "NbHaM4EXC9zLWswvfmtSQYe2GHI",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "8Y4ZrWVmVTk"
+        },
+        "snippet": {
+            "publishedAt": "2025-02-18T02:41:04Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Torcendo a realidade",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/8Y4ZrWVmVTk/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/8Y4ZrWVmVTk/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/8Y4ZrWVmVTk/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-02-18T02:41:04Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "8joyDkhIphJ7VhWpA_ViA_NMQ_M",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "RGN4oDi_Kj8"
+        },
+        "snippet": {
+            "publishedAt": "2023-07-08T03:33:52Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Z\u00e9 de volta pra o oficina (4)",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/RGN4oDi_Kj8/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/RGN4oDi_Kj8/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/RGN4oDi_Kj8/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-07-08T03:33:52Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "O4pRAch4b0Uj_HdUzN1ffeEaiEA",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "Lu04klLXyc4"
+        },
+        "snippet": {
+            "publishedAt": "2025-04-02T10:55:03Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Atividade de Produ\u00e7\u00e3o em Libras A02",
+            "description": "Segunda, ter\u00e7a, quarta, quinta e sexta eu trabalho. Segunda e quarta de noite estudo. Ter\u00e7a, quinta e sexta, descanso. S\u00e1bado e ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/Lu04klLXyc4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/Lu04klLXyc4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/Lu04klLXyc4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-04-02T10:55:03Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "7gs4M1LOuAUqI3nCyWj8cbHhc0w",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "MUiIdaDrFxA"
+        },
+        "snippet": {
+            "publishedAt": "2024-01-04T00:43:02Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "priva\u00e7\u00e3o automotiva",
+            "description": "a vizinha de vaga tem treta com o condom\u00ednio e estaciona muito fora dos limites, da\u00ed que n\u00e3o conseguimos tirar o carro e nem ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/MUiIdaDrFxA/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/MUiIdaDrFxA/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/MUiIdaDrFxA/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-01-04T00:43:02Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "_RwpKpyHgErYzOx-YD1wINAj5-A",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "PADjBCIFipw"
+        },
+        "snippet": {
+            "publishedAt": "2022-03-19T12:19:20Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "caipira 22",
+            "description": "caipira SLP 28/02/22.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/PADjBCIFipw/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/PADjBCIFipw/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/PADjBCIFipw/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-03-19T12:19:20Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "3mluqd9VUcyTbsQevX7rClbyCfY",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "unipQ7b9Yq4"
+        },
+        "snippet": {
+            "publishedAt": "2017-07-22T17:41:05Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Armo\u00e7o brasa",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/unipQ7b9Yq4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/unipQ7b9Yq4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/unipQ7b9Yq4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2017-07-22T17:41:05Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "A2CPxOwOazBldpNesN2E9SQKdSA",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "v3hscDzeSu8"
+        },
+        "snippet": {
+            "publishedAt": "2023-10-03T03:05:36Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Introdu\u00e7\u00e3o Filosofia da Linguagem",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/v3hscDzeSu8/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/v3hscDzeSu8/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/v3hscDzeSu8/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-10-03T03:05:36Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "6XkadJdniIgy0Qeg4BhpIOBJTu0",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "4uSZaDu34F8"
+        },
+        "snippet": {
+            "publishedAt": "2024-09-21T14:54:16Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "IA com vi\u00e9s filos\u00f3fico",
+            "description": "passada de olho na IA com pitada filos\u00f3fica.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/4uSZaDu34F8/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/4uSZaDu34F8/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/4uSZaDu34F8/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-09-21T14:54:16Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "P_rcDA_zvqcu7fnKM-PSp2bAy4c",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "43JATJnlMAw"
+        },
+        "snippet": {
+            "publishedAt": "2024-08-24T20:21:58Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "trinca 2",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/43JATJnlMAw/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/43JATJnlMAw/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/43JATJnlMAw/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-08-24T20:21:58Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "8Hl6tH9zlXeLUW5xlA_Dgh-OpHQ",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "SpdreT2vu2c"
+        },
+        "snippet": {
+            "publishedAt": "2020-06-13T02:14:41Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "June 12, 2020",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/SpdreT2vu2c/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/SpdreT2vu2c/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/SpdreT2vu2c/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-06-13T02:14:41Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "4VQTY3vaZ5vOBDW7FyvIZv9HCVs",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "0-rbMMrD-JE"
+        },
+        "snippet": {
+            "publishedAt": "2025-01-28T14:03:44Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Peed kees",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/0-rbMMrD-JE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/0-rbMMrD-JE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/0-rbMMrD-JE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-01-28T14:03:44Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "3PK_qOSFlw7FhIVo1Sl_ElKuyME",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "ON0hKQpp_Tg"
+        },
+        "snippet": {
+            "publishedAt": "2023-07-08T03:33:47Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Z\u00e9 de volta pra o oficina (3)",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/ON0hKQpp_Tg/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/ON0hKQpp_Tg/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/ON0hKQpp_Tg/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-07-08T03:33:47Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "2mKEhLa5d9OrgXo0hQzSV6G2YKs",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "I4H2SY3qwPc"
+        },
+        "snippet": {
+            "publishedAt": "2014-08-17T18:30:46Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "bando di loco",
+            "description": "porcada indo para pacaembu.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/I4H2SY3qwPc/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/I4H2SY3qwPc/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/I4H2SY3qwPc/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2014-08-17T18:30:46Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "FvnPLNELUW5lKtwDO96GvIJSaRM",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "veaaomSAhzA"
+        },
+        "snippet": {
+            "publishedAt": "2014-05-22T03:23:45Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "greve 2014",
+            "description": "assembl\u00e9ia de estudantes decide pela greve.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/veaaomSAhzA/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/veaaomSAhzA/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/veaaomSAhzA/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2014-05-22T03:23:45Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "LqRNvpe2L9nJ-l7WclmAsyVCh20",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "mrmrn4KY-t0"
+        },
+        "snippet": {
+            "publishedAt": "2023-08-11T21:30:52Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Eu falo e voc\u00ea me ouve, mas entende  \u2010 Feito com o Clipchamp",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/mrmrn4KY-t0/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/mrmrn4KY-t0/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/mrmrn4KY-t0/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-08-11T21:30:52Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "nULZGuVHaadNI3mUGJmuP0Zm6ns",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "pZ-07VxIUBM"
+        },
+        "snippet": {
+            "publishedAt": "2023-07-08T03:34:00Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Z\u00e9 de volta pra o oficina (2)",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/pZ-07VxIUBM/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/pZ-07VxIUBM/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/pZ-07VxIUBM/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-07-08T03:34:00Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "b7qbaHF1LAF-a7GPTw5fYW0hVGo",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "5QARV1aTjaA"
+        },
+        "snippet": {
+            "publishedAt": "2024-07-24T22:10:59Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "M\u00e1quinas que pensam",
+            "description": "Voltando ao tema da IA forte.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/5QARV1aTjaA/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/5QARV1aTjaA/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/5QARV1aTjaA/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-07-24T22:10:59Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "i2oNB_RUqF-ArEb7dGtX1461SdI",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "DRQfoz0lsbw"
+        },
+        "snippet": {
+            "publishedAt": "2021-01-17T18:47:38Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Vacina dia V",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/DRQfoz0lsbw/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/DRQfoz0lsbw/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/DRQfoz0lsbw/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-01-17T18:47:38Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "uS9Ss_kOOufs7tjtSSWCpi7gJaU",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "lanAvPg-wyk"
+        },
+        "snippet": {
+            "publishedAt": "2022-10-25T23:21:16Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "TUCA 24/10/22",
+            "description": "Ato Lula Haddad.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/lanAvPg-wyk/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/lanAvPg-wyk/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/lanAvPg-wyk/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-10-25T23:21:16Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "4PTc9svtay6BOOFIqFBWrks5TQU",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "Kt8S6j5z-EI"
+        },
+        "snippet": {
+            "publishedAt": "2022-03-26T22:25:34Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "descendo",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/Kt8S6j5z-EI/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/Kt8S6j5z-EI/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/Kt8S6j5z-EI/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-03-26T22:25:34Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "ZENYZRnfKsZI7KACLMaWjo6gPBE",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "Xkhrh27YHk4"
+        },
+        "snippet": {
+            "publishedAt": "2020-06-02T16:48:22Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Lives Divino SLP 2020 Leandro",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/Xkhrh27YHk4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/Xkhrh27YHk4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/Xkhrh27YHk4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-06-02T16:48:22Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "fxERDVgDa12eylImc4JztW5ARko",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "zYz8dXNzt6Y"
+        },
+        "snippet": {
+            "publishedAt": "2025-04-02T10:13:34Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Nos bra\u00e7os",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/zYz8dXNzt6Y/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/zYz8dXNzt6Y/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/zYz8dXNzt6Y/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-04-02T10:13:34Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "mPY3NtRK3X37JPgS_ltohDK3DP8",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "rJY3mWXo7m4"
+        },
+        "snippet": {
+            "publishedAt": "2025-01-08T02:31:06Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "2025 chegou",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/rJY3mWXo7m4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/rJY3mWXo7m4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/rJY3mWXo7m4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-01-08T02:31:06Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "kvkPmqso7l-TI97gy7dcpTV7lls",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "VdRNmGtCdxQ"
+        },
+        "snippet": {
+            "publishedAt": "2024-01-05T02:55:39Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "\u00c9 verdade?",
+            "description": "elucubra\u00e7\u00f5es de linguagem e realidade, o mais engra\u00e7ado \u00e9 que o template que usei do clipchamp \u00e9 uma \"duplica\u00e7\u00e3o\" da ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/VdRNmGtCdxQ/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/VdRNmGtCdxQ/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/VdRNmGtCdxQ/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-01-05T02:55:39Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "TuNRl2aX8k6kXTDaDcE7xUkBZQE",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "CzfdGcv5VcE"
+        },
+        "snippet": {
+            "publishedAt": "2022-03-19T12:12:03Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "os menino 6 3 22",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/CzfdGcv5VcE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/CzfdGcv5VcE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/CzfdGcv5VcE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-03-19T12:12:03Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "pLfUdAXykVORu4uSJL53B7Zu9bc",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "svUU2sbXl68"
+        },
+        "snippet": {
+            "publishedAt": "2024-08-24T01:35:41Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "trinca",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/svUU2sbXl68/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/svUU2sbXl68/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/svUU2sbXl68/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-08-24T01:35:41Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "qV2F_mge8fp81vgkM8nVQRQ7kfY",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "jn7ArbBJWoU"
+        },
+        "snippet": {
+            "publishedAt": "2022-03-19T12:10:14Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "os menino 6/3/22",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/jn7ArbBJWoU/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/jn7ArbBJWoU/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/jn7ArbBJWoU/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-03-19T12:10:14Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "JxRx1Jzt-ggphimMdqm8XZP4wC4",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "GccAr03T_54"
+        },
+        "snippet": {
+            "publishedAt": "2022-03-19T11:54:58Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "lei da selva - 18/03/22",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/GccAr03T_54/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/GccAr03T_54/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/GccAr03T_54/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-03-19T11:54:58Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "ixOuXBXrYPL5y-5k7eXSqNb9Ao0",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "PFZRCod-57k"
+        },
+        "snippet": {
+            "publishedAt": "2024-11-27T23:11:37Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Sensor",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/PFZRCod-57k/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/PFZRCod-57k/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/PFZRCod-57k/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-11-27T23:11:37Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "KdjSNt665OYGYwCNPf7BbPtdR7U",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "zDDYy6DAnaU"
+        },
+        "snippet": {
+            "publishedAt": "2024-02-03T15:52:24Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "&quot;A neve \u00e9 branca&quot; sse a neve \u00e9 branca",
+            "description": "plinio smith, rorty, davidson, barrio, stroud - come\u00e7ando esses treco.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/zDDYy6DAnaU/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/zDDYy6DAnaU/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/zDDYy6DAnaU/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-02-03T15:52:24Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "-SlkzoiGdolUlaEmco4VMlOuLxA",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "6Hk-K1E9mTE"
+        },
+        "snippet": {
+            "publishedAt": "2022-09-08T22:59:17Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "em Uba Uba campe\u00e3o",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/6Hk-K1E9mTE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/6Hk-K1E9mTE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/6Hk-K1E9mTE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-09-08T22:59:17Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "sX2bAVqy1M2Fo4Aj8XPCuBbKqoU",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "A0EqhigIVBQ"
+        },
+        "snippet": {
+            "publishedAt": "2022-03-19T12:02:46Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "casa chuva 15/03/2022",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/A0EqhigIVBQ/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/A0EqhigIVBQ/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/A0EqhigIVBQ/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-03-19T12:02:46Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "9Key3ZCFxgZR3xnMw38GENkzuGU",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "NJayv--2a7A"
+        },
+        "snippet": {
+            "publishedAt": "2018-12-22T05:45:45Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Festinha priv\u00ea n\u00e3o me chamaram",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/NJayv--2a7A/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/NJayv--2a7A/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/NJayv--2a7A/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2018-12-22T05:45:45Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "oV-8RPhDBo9fEfHdYhxcge3XewY",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "9eHVmvowW0k"
+        },
+        "snippet": {
+            "publishedAt": "2022-03-19T12:04:53Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "casa chuva 15 03 22",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/9eHVmvowW0k/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/9eHVmvowW0k/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/9eHVmvowW0k/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-03-19T12:04:53Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "H-jMDF_ib693A9mJk6vjXRdlNRA",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "AzHlhuLAFY4"
+        },
+        "snippet": {
+            "publishedAt": "2024-11-15T14:57:41Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "11 13 2024, 6 47 34 PM   gosth in the machine",
+            "description": "Mito cartesiano Doutrina Oficial Corpo: publico Mente: privado: conhecimento indubit\u00e1vel \u2013 suspens\u00e3o do ju\u00edzo Exterior x interior: ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/AzHlhuLAFY4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/AzHlhuLAFY4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/AzHlhuLAFY4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-11-15T14:57:41Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "uiBzHk0DZ9_VsSom7GgcF63K5E8",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "EeboHjE84hU"
+        },
+        "snippet": {
+            "publishedAt": "2021-01-23T20:38:30Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "fiu fiu temos vac",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/EeboHjE84hU/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/EeboHjE84hU/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/EeboHjE84hU/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-01-23T20:38:30Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "iMazU07mFJePQK-ws1VXxm6HxS4",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "6wx61HU9ox4"
+        },
+        "snippet": {
+            "publishedAt": "2022-08-22T12:34:14Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "passeio de bike da turma",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/6wx61HU9ox4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/6wx61HU9ox4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/6wx61HU9ox4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-08-22T12:34:14Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "DJXT1taUnp9QeuH5_E4OC8Ff9zQ",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "sd4GIapDsQo"
+        },
+        "snippet": {
+            "publishedAt": "2024-05-01T02:27:43Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "ceticismo, circularidade e terapia",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/sd4GIapDsQo/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/sd4GIapDsQo/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/sd4GIapDsQo/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-05-01T02:27:43Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "gZ-60hAzYYyE_3Y_tWzVhe3V_DA",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "OokZN3kQ5iE"
+        },
+        "snippet": {
+            "publishedAt": "2023-12-09T13:56:29Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "fidibuteco - sem voz...",
+            "description": "registrando um pensamento... desconexo e talvez sem sentido, mas possa ser que se possa extrair uma coisa ou outra ou nada.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/OokZN3kQ5iE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/OokZN3kQ5iE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/OokZN3kQ5iE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-12-09T13:56:29Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "1jK25_t6QrLGImRxO8VX0v91jOg",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "Z3XFrYapfVA"
+        },
+        "snippet": {
+            "publishedAt": "2025-04-02T10:55:21Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "O existencialismo \u00e9 um humanismo",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/Z3XFrYapfVA/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/Z3XFrYapfVA/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/Z3XFrYapfVA/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-04-02T10:55:21Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "FXwlA1TrcYEnfII4xa2Quo-CGU0",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "UKsw5MfX8pc"
+        },
+        "snippet": {
+            "publishedAt": "2023-09-02T15:18:46Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "introdu\u00e7\u00e3o indexicais resenha costa",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/UKsw5MfX8pc/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/UKsw5MfX8pc/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/UKsw5MfX8pc/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-09-02T15:18:46Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "WBGzCi6R0tjDoyhcaUJqWL-e_YQ",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "QUljh-J8xW4"
+        },
+        "snippet": {
+            "publishedAt": "2022-10-25T23:17:49Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "TUCA 24/10/22",
+            "description": "Ato Lula Haddad.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/QUljh-J8xW4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/QUljh-J8xW4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/QUljh-J8xW4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-10-25T23:17:49Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "XCdTYeu5AOH1EleCQl7JiT1a8Pk",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "8yts0xrxTz4"
+        },
+        "snippet": {
+            "publishedAt": "2024-12-27T14:55:24Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Pitacos em Filosofia Moral - Kant e Schopenhauer",
+            "description": "Este documento tem como objetivo apresentar uma an\u00e1lise comparativa das filosofias morais de Immanuel Kant e Arthur ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/8yts0xrxTz4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/8yts0xrxTz4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/8yts0xrxTz4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-12-27T14:55:24Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "9Key3ZCFxgZR3xnMw38GENkzuGU",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "NJayv--2a7A"
+        },
+        "snippet": {
+            "publishedAt": "2018-12-22T05:45:45Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Festinha priv\u00ea n\u00e3o me chamaram",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/NJayv--2a7A/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/NJayv--2a7A/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/NJayv--2a7A/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2018-12-22T05:45:45Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "6LgTLUdbvuja9-ST6U3GF5xU0O0",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "VUaADFYxddI"
+        },
+        "snippet": {
+            "publishedAt": "2025-02-22T19:16:21Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "SLP em SP bitelo",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/VUaADFYxddI/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/VUaADFYxddI/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/VUaADFYxddI/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2025-02-22T19:16:21Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "9uKSeEbRUY-xnUao75CyitJSJ94",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "_0JfMTKwpMs"
+        },
+        "snippet": {
+            "publishedAt": "2024-04-01T01:21:04Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Cavalaria Guaratinguet\u00e1 2024",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/_0JfMTKwpMs/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/_0JfMTKwpMs/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/_0JfMTKwpMs/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-04-01T01:21:04Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "aBRiez6idMLj1PaDVPpS9wbm_y8",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "g5m0gHN-6iI"
+        },
+        "snippet": {
+            "publishedAt": "2024-04-01T01:23:43Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "Prociss\u00e3o S\u00e3o Benedito 2024",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/g5m0gHN-6iI/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/g5m0gHN-6iI/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/g5m0gHN-6iI/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-04-01T01:23:43Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "4GyqV1pU6iSpsRX0YnAUYAgdXBE",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "thvVpZR4fys"
+        },
+        "snippet": {
+            "publishedAt": "2024-01-07T18:39:55Z",
+            "channelId": "UC8ci8Oy9TYD1azAUdrYlorA",
+            "title": "adeus Zagallo",
+            "description": "SporTV ao vivo.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/thvVpZR4fys/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/thvVpZR4fys/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/thvVpZR4fys/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Lu\u00eds Quissak",
+            "liveBroadcastContent": "none",
+            "publishTime": "2024-01-07T18:39:55Z"
+        }
+    }
+]
