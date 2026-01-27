@@ -207,6 +207,7 @@ Post classification
 .venv\scripts\activate && jupyter notebook src\notebook\talk_with_the_blog.ipynb
 .venv\scripts\activate && jupyter notebook src\notebook\rag_gcp_agent_bq_full_blog.ipynb
 .venv\scripts\activate && jupyter notebook src\notebook
+.venv\scripts\activate && jupyter notebook gemini-agent-engine\langgraph_human_in_the_loop.ipynb
 
 http://localhost:8888/notebooks/rag_gcp_agent_bq_query_retrieve.ipynb
 
@@ -241,6 +242,8 @@ Talk with the data
 .venv\scripts\activate && .venv\Scripts\python.exe mongo\ping_db.py
 .venv\scripts\activate && .venv\Scripts\python.exe mongo\vector_index.py
 ```
+
+.venv\scripts\activate && .venv\Scripts\python.exe atos\toexcel.py
 
 ```bash
 .venv\scripts\activate && .venv\Scripts\python.exe src\gcp\upload_authors.py

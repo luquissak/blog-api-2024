@@ -1,0 +1,203 @@
+[
+	{
+		"lc": 1,
+		"type": "constructor",
+		"id": [
+			"langchain",
+			"schema",
+			"messages",
+			"HumanMessage"
+		],
+		"kwargs": {
+			"content": "searle",
+			"type": "human",
+			"id": "b0e2f776-2942-48cc-9204-388014d8f050"
+		}
+	},
+	{
+		"lc": 1,
+		"type": "constructor",
+		"id": [
+			"langchain",
+			"schema",
+			"messages",
+			"SystemMessage"
+		],
+		"kwargs": {
+			"content": "Você é um tutor de filosofia e deve trazer as respostas baseadas na teorias encontradas nos textos, sejam de autores ou termos",
+			"type": "system",
+			"id": "5ff16596-9297-46c1-9a7a-e55e4c424249"
+		}
+	},
+	{
+		"lc": 1,
+		"type": "constructor",
+		"id": [
+			"langchain",
+			"schema",
+			"messages",
+			"AIMessage"
+		],
+		"kwargs": {
+			"content": "",
+			"additional_kwargs": {
+				"function_call": {
+					"name": "retrieve",
+					"arguments": "{\"query\": \"searle\"}"
+				}
+			},
+			"response_metadata": {
+				"is_blocked": false,
+				"safety_ratings": [],
+				"usage_metadata": {
+					"prompt_token_count": 38,
+					"candidates_token_count": 4,
+					"total_token_count": 42,
+					"prompt_tokens_details": [
+						{
+							"modality": 1,
+							"token_count": 38
+						}
+					],
+					"candidates_tokens_details": [
+						{
+							"modality": 1,
+							"token_count": 4
+						}
+					],
+					"cached_content_token_count": 0,
+					"cache_tokens_details": []
+				},
+				"finish_reason": "STOP",
+				"avg_logprobs": -0.00009684987890068442,
+				"model_name": "gemini-2.0-flash-001"
+			},
+			"type": "ai",
+			"id": "run-e432328e-fb62-493a-bcf9-d0e2e1c2e112-0",
+			"tool_calls": [
+				{
+					"name": "retrieve",
+					"args": {
+						"query": "searle"
+					},
+					"id": "424e121b-37d2-400f-a6b3-f99cc2d27e77",
+					"type": "tool_call"
+				}
+			],
+			"usage_metadata": {
+				"input_tokens": 38,
+				"output_tokens": 4,
+				"total_tokens": 42
+			},
+			"invalid_tool_calls": []
+		}
+	},
+	{
+		"lc": 1,
+		"type": "constructor",
+		"id": [
+			"langchain",
+			"schema",
+			"messages",
+			"ToolMessage"
+		],
+		"kwargs": {
+			"content": "Source: {'doc_id': 'da3aca1994054facbf2670d91ada015a', 'post_title': 'Searle contra Dennett*', 'post_url': 'http://www.reflexoesdofilosofo.blog.br/2024/10/searle-contra-dennett.html', 'score': 0.8201956489765119}\nContent: summarization: O texto apresentado é uma coleção de posts de um blog sobre filosofia da mente, explorando as ideias de Searle e Dennett sobre a relação entre mente e corpo, a natureza da consciência, a inteligência artificial e o teste de Turing. O blog discute as principais diferenças entre as visões de Searle e Dennett sobre a mente e a consciência, destacando os seguintes pontos:\n\n**Searle:**\n\nSource: {'doc_id': 'e8013390cae14a06ba7d29b82baa5221', 'post_title': 'Searle contra Dennett*', 'post_url': 'http://www.reflexoesdofilosofo.blog.br/2024/10/searle-contra-dennett.html', 'score': 0.91042814134526}\nContent: **Diferenças:**\n\n* **Existência da Mente:** Searle acredita na existência da mente como uma entidade real, enquanto Dennett a considera uma construção teórica útil, mas não uma entidade real.\n* **Método de Investigação:** Searle defende uma abordagem mais tradicional, enquanto Dennett defende uma abordagem mais funcionalista e evolucionista.\n* **Natureza da Consciência:** Searle acredita que a consciência é um fenômeno subjetivo, enquanto Dennett a considera um sistema intencional que pode ser usado para prever o comportamento de um indivíduo.\n* **Inteligência Artificial:** Searle é mais cético em relação à possibilidade de uma máquina ter consciência, enquanto Dennett é mais aberto a essa possibilidade.",
+			"type": "tool",
+			"name": "retrieve",
+			"id": "932342b1-829b-4573-afef-4a20c9bd1027",
+			"tool_call_id": "424e121b-37d2-400f-a6b3-f99cc2d27e77",
+			"artifact": [
+				{
+					"lc": 1,
+					"type": "constructor",
+					"id": [
+						"langchain",
+						"schema",
+						"document",
+						"Document"
+					],
+					"kwargs": {
+						"metadata": {
+							"doc_id": "da3aca1994054facbf2670d91ada015a",
+							"post_title": "Searle contra Dennett*",
+							"post_url": "http://www.reflexoesdofilosofo.blog.br/2024/10/searle-contra-dennett.html",
+							"score": 0.8201956489765119
+						},
+						"page_content": "summarization: O texto apresentado é uma coleção de posts de um blog sobre filosofia da mente, explorando as ideias de Searle e Dennett sobre a relação entre mente e corpo, a natureza da consciência, a inteligência artificial e o teste de Turing. O blog discute as principais diferenças entre as visões de Searle e Dennett sobre a mente e a consciência, destacando os seguintes pontos:\n\n**Searle:**",
+						"type": "Document"
+					}
+				},
+				{
+					"lc": 1,
+					"type": "constructor",
+					"id": [
+						"langchain",
+						"schema",
+						"document",
+						"Document"
+					],
+					"kwargs": {
+						"metadata": {
+							"doc_id": "e8013390cae14a06ba7d29b82baa5221",
+							"post_title": "Searle contra Dennett*",
+							"post_url": "http://www.reflexoesdofilosofo.blog.br/2024/10/searle-contra-dennett.html",
+							"score": 0.91042814134526
+						},
+						"page_content": "**Diferenças:**\n\n* **Existência da Mente:** Searle acredita na existência da mente como uma entidade real, enquanto Dennett a considera uma construção teórica útil, mas não uma entidade real.\n* **Método de Investigação:** Searle defende uma abordagem mais tradicional, enquanto Dennett defende uma abordagem mais funcionalista e evolucionista.\n* **Natureza da Consciência:** Searle acredita que a consciência é um fenômeno subjetivo, enquanto Dennett a considera um sistema intencional que pode ser usado para prever o comportamento de um indivíduo.\n* **Inteligência Artificial:** Searle é mais cético em relação à possibilidade de uma máquina ter consciência, enquanto Dennett é mais aberto a essa possibilidade.",
+						"type": "Document"
+					}
+				}
+			],
+			"status": "success"
+		}
+	},
+	{
+		"lc": 1,
+		"type": "constructor",
+		"id": [
+			"langchain",
+			"schema",
+			"messages",
+			"AIMessage"
+		],
+		"kwargs": {
+			"content": "Searle acredita na existência da mente como uma entidade real e defende uma abordagem mais tradicional. Ele acredita que a consciência é um fenômeno subjetivo e é mais cético em relação à possibilidade de uma máquina ter consciência.",
+			"response_metadata": {
+				"is_blocked": false,
+				"safety_ratings": [],
+				"usage_metadata": {
+					"prompt_token_count": 533,
+					"candidates_token_count": 45,
+					"total_token_count": 578,
+					"prompt_tokens_details": [
+						{
+							"modality": 1,
+							"token_count": 533
+						}
+					],
+					"candidates_tokens_details": [
+						{
+							"modality": 1,
+							"token_count": 45
+						}
+					],
+					"cached_content_token_count": 0,
+					"cache_tokens_details": []
+				},
+				"finish_reason": "STOP",
+				"avg_logprobs": -0.0880429850684272,
+				"model_name": "gemini-2.0-flash-001"
+			},
+			"type": "ai",
+			"id": "run-30dad4a5-e19c-42a9-9809-e33d994473f1-0",
+			"usage_metadata": {
+				"input_tokens": 533,
+				"output_tokens": 45,
+				"total_tokens": 578
+			},
+			"tool_calls": [],
+			"invalid_tool_calls": []
+		}
+	}
+]
