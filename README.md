@@ -290,6 +290,12 @@ gcloud beta run deploy --image gcr.io/PROJECT_ID/dialogflow-telegram --service-a
 
 -[Report](https://lookerstudio.google.com/s/mxKD2HnuGI8)
 
+# Efevmo-me
+
+```bash
+.venv\scripts\activate && .venv\Scripts\python src\efevmo_me\thumb.py
+```
+
 # References
 
 - [Blogger](https://developers.google.com/blogger)
