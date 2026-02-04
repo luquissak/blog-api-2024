@@ -1,7 +1,7 @@
 from os import listdir
 from os.path import isfile, join
 
-path = "docs/posts/docx2/"
+path = "docao4"
 onlyfiles = [f for f in listdir(path) if isfile(join(path, f))]
 for post in onlyfiles:
     print(post)
